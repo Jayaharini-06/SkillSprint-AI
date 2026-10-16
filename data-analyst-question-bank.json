@@ -1,0 +1,678 @@
+
+[
+  {
+    "id": 1,
+    "question": "Which SQL command is used to retrieve data from a table?",
+    "options": ["INSERT", "SELECT", "UPDATE", "DELETE"],
+    "correctAnswer": "SELECT",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "SELECT retrieves data from one or more database tables."
+  },
+  {
+    "id": 2,
+    "question": "Which SQL clause filters rows based on a condition?",
+    "options": ["ORDER BY", "GROUP BY", "WHERE", "SELECT"],
+    "correctAnswer": "WHERE",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "WHERE selects rows that satisfy a specified condition."
+  },
+  {
+    "id": 3,
+    "question": "Which SQL function counts rows?",
+    "options": ["SUM()", "COUNT()", "TOTAL()", "NUMBER()"],
+    "correctAnswer": "COUNT()",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "COUNT() returns the number of rows or non-NULL values, depending on its argument."
+  },
+  {
+    "id": 4,
+    "question": "Which SQL keyword sorts query results?",
+    "options": ["SORT", "ARRANGE", "ORDER BY", "GROUP"],
+    "correctAnswer": "ORDER BY",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "ORDER BY sorts query results in ascending or descending order."
+  },
+  {
+    "id": 5,
+    "question": "Which SQL command adds a new row to a table?",
+    "options": ["INSERT INTO", "ADD ROW", "CREATE ROW", "APPEND TABLE"],
+    "correctAnswer": "INSERT INTO",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "INSERT INTO adds new records to a database table."
+  },
+  {
+    "id": 6,
+    "question": "Which Python data type stores True or False?",
+    "options": ["int", "str", "bool", "list"],
+    "correctAnswer": "bool",
+    "topic": "Python",
+    "difficulty": "Basic",
+    "explanation": "The bool type represents Boolean values: True and False."
+  },
+  {
+    "id": 7,
+    "question": "Which Python structure stores an ordered collection that can be changed?",
+    "options": ["Tuple", "List", "String", "Integer"],
+    "correctAnswer": "List",
+    "topic": "Python",
+    "difficulty": "Basic",
+    "explanation": "A Python list is ordered and mutable, meaning its elements can be changed."
+  },
+  {
+    "id": 8,
+    "question": "Which Python function displays output?",
+    "options": ["input()", "print()", "show()", "displayText()"],
+    "correctAnswer": "print()",
+    "topic": "Python",
+    "difficulty": "Basic",
+    "explanation": "print() displays values or messages in the output."
+  },
+  {
+    "id": 9,
+    "question": "Which Python library is commonly used for working with tabular data?",
+    "options": ["Pandas", "Turtle", "Pygame", "Tkinter"],
+    "correctAnswer": "Pandas",
+    "topic": "Python",
+    "difficulty": "Basic",
+    "explanation": "Pandas provides DataFrame structures and tools for manipulating tabular data."
+  },
+  {
+    "id": 10,
+    "question": "What does len() return for a Python list?",
+    "options": ["The largest value", "The number of elements", "The sum", "The data type"],
+    "correctAnswer": "The number of elements",
+    "topic": "Python",
+    "difficulty": "Basic",
+    "explanation": "len() returns the number of elements in a list."
+  },
+  {
+    "id": 11,
+    "question": "What is the mean of 2, 4, and 6?",
+    "options": ["2", "3", "4", "6"],
+    "correctAnswer": "4",
+    "topic": "Statistics",
+    "difficulty": "Basic",
+    "explanation": "The mean is (2 + 4 + 6) divided by 3, which equals 4."
+  },
+  {
+    "id": 12,
+    "question": "What is the median of 3, 7, and 9?",
+    "options": ["3", "7", "8", "9"],
+    "correctAnswer": "7",
+    "topic": "Statistics",
+    "difficulty": "Basic",
+    "explanation": "The median is the middle value after the numbers are arranged in order."
+  },
+  {
+    "id": 13,
+    "question": "Which measure represents the most frequently occurring value?",
+    "options": ["Mean", "Median", "Mode", "Range"],
+    "correctAnswer": "Mode",
+    "topic": "Statistics",
+    "difficulty": "Basic",
+    "explanation": "The mode is the value that occurs most frequently in a dataset."
+  },
+  {
+    "id": 14,
+    "question": "What is the range of the values 5, 12, and 20?",
+    "options": ["5", "12", "15", "20"],
+    "correctAnswer": "15",
+    "topic": "Statistics",
+    "difficulty": "Basic",
+    "explanation": "Range equals the maximum value minus the minimum value: 20 - 5 = 15."
+  },
+  {
+    "id": 15,
+    "question": "What does a percentage express?",
+    "options": ["A value per 10", "A value per 100", "A value per 1,000", "A value per 1"],
+    "correctAnswer": "A value per 100",
+    "topic": "Statistics",
+    "difficulty": "Basic",
+    "explanation": "A percentage expresses a proportion out of 100."
+  },
+  {
+    "id": 16,
+    "question": "In a spreadsheet, which formula adds values from A1 to A5?",
+    "options": ["=ADD(A1:A5)", "=SUM(A1:A5)", "=TOTAL(A1:A5)", "=PLUS(A1:A5)"],
+    "correctAnswer": "=SUM(A1:A5)",
+    "topic": "Spreadsheets",
+    "difficulty": "Basic",
+    "explanation": "SUM adds the numeric values in the specified range."
+  },
+  {
+    "id": 17,
+    "question": "Which spreadsheet feature displays only rows matching chosen conditions?",
+    "options": ["Filter", "Merge", "Wrap Text", "Freeze"],
+    "correctAnswer": "Filter",
+    "topic": "Spreadsheets",
+    "difficulty": "Basic",
+    "explanation": "Filters display rows that match selected criteria."
+  },
+  {
+    "id": 18,
+    "question": "Which chart is commonly used to compare values across categories?",
+    "options": ["Bar chart", "Scatter plot only", "Map only", "Network diagram"],
+    "correctAnswer": "Bar chart",
+    "topic": "Data Visualization",
+    "difficulty": "Basic",
+    "explanation": "Bar charts make it easy to compare values across categories."
+  },
+  {
+    "id": 19,
+    "question": "Which chart is commonly used to show a trend over time?",
+    "options": ["Pie chart", "Line chart", "Single number card", "Tree diagram"],
+    "correctAnswer": "Line chart",
+    "topic": "Data Visualization",
+    "difficulty": "Basic",
+    "explanation": "Line charts show how values change across an ordered sequence such as time."
+  },
+  {
+    "id": 20,
+    "question": "What is data cleaning?",
+    "options": ["Deleting every row", "Finding and correcting data quality problems", "Creating a logo", "Encrypting every file"],
+    "correctAnswer": "Finding and correcting data quality problems",
+    "topic": "Data Cleaning",
+    "difficulty": "Basic",
+    "explanation": "Data cleaning handles issues such as duplicates, inconsistent formats, and invalid values."
+  },
+  {
+    "id": 21,
+    "question": "What is a missing value in a dataset?",
+    "options": ["A value that is not recorded", "The largest value", "A duplicate column", "A sorted row"],
+    "correctAnswer": "A value that is not recorded",
+    "topic": "Data Cleaning",
+    "difficulty": "Basic",
+    "explanation": "A missing value means that a data field has no recorded value."
+  },
+  {
+    "id": 22,
+    "question": "What is a duplicate record?",
+    "options": ["A record repeated more than once", "A record with a new ID", "A sorted record", "A record with no columns"],
+    "correctAnswer": "A record repeated more than once",
+    "topic": "Data Cleaning",
+    "difficulty": "Basic",
+    "explanation": "Duplicate records represent repeated entries that may need investigation or removal."
+  },
+  {
+    "id": 23,
+    "question": "What does CSV stand for?",
+    "options": ["Computer Stored Values", "Comma-Separated Values", "Column Sorting Version", "Common System Variables"],
+    "correctAnswer": "Comma-Separated Values",
+    "topic": "Data Fundamentals",
+    "difficulty": "Basic",
+    "explanation": "CSV is a text format commonly used to store tabular data separated by commas."
+  },
+  {
+    "id": 24,
+    "question": "What is a database table made up of?",
+    "options": ["Only charts", "Rows and columns", "Only formulas", "Only images"],
+    "correctAnswer": "Rows and columns",
+    "topic": "Databases",
+    "difficulty": "Basic",
+    "explanation": "Rows represent records and columns represent fields or attributes."
+  },
+  {
+    "id": 25,
+    "question": "Why do analysts create data visualizations?",
+    "options": ["To hide all values", "To communicate patterns and insights clearly", "To remove the need for data", "To make files larger"],
+    "correctAnswer": "To communicate patterns and insights clearly",
+    "topic": "Data Visualization",
+    "difficulty": "Basic",
+    "explanation": "Visualizations help people understand patterns, comparisons, and trends."
+  },
+  {
+    "id": 26,
+    "question": "Which SQL clause groups rows that share the same values?",
+    "options": ["ORDER BY", "GROUP BY", "WHERE", "LIMIT"],
+    "correctAnswer": "GROUP BY",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "GROUP BY forms groups of rows, often for aggregate calculations."
+  },
+  {
+    "id": 27,
+    "question": "Which SQL clause filters groups after aggregation?",
+    "options": ["WHERE", "HAVING", "FROM", "DISTINCT"],
+    "correctAnswer": "HAVING",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "HAVING filters grouped results, commonly using aggregate conditions."
+  },
+  {
+    "id": 28,
+    "question": "Which JOIN returns rows with matching values in both tables?",
+    "options": ["INNER JOIN", "CROSS JOIN", "FULL OUTER JOIN", "LEFT JOIN only"],
+    "correctAnswer": "INNER JOIN",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "INNER JOIN returns rows where the join condition matches in both tables."
+  },
+  {
+    "id": 29,
+    "question": "What does COUNT(*) count in SQL?",
+    "options": ["Only NULL values", "All rows in the result set", "Only distinct values", "Only text columns"],
+    "correctAnswer": "All rows in the result set",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "COUNT(*) counts rows regardless of whether individual columns contain NULL."
+  },
+  {
+    "id": 30,
+    "question": "Which SQL keyword removes duplicate rows from a query result?",
+    "options": ["UNIQUE ONLY", "DISTINCT", "CLEAN", "DEDUPLICATE"],
+    "correctAnswer": "DISTINCT",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "SELECT DISTINCT returns unique combinations of the selected columns."
+  },
+  {
+    "id": 31,
+    "question": "What does a LEFT JOIN return when a left-table row has no match?",
+    "options": ["The row is always removed", "The left row remains and right-side columns are NULL", "The database is deleted", "The query always fails"],
+    "correctAnswer": "The left row remains and right-side columns are NULL",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "LEFT JOIN preserves all left-table rows and supplies NULL for unmatched right-side columns."
+  },
+  {
+    "id": 32,
+    "question": "Which SQL expression safely counts distinct customer IDs?",
+    "options": ["COUNT(UNIQUE customer_id)", "COUNT(DISTINCT customer_id)", "SUM(DISTINCT customer_id)", "UNIQUE(COUNT customer_id)"],
+    "correctAnswer": "COUNT(DISTINCT customer_id)",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "COUNT(DISTINCT column) counts distinct non-NULL values in that column."
+  },
+  {
+    "id": 33,
+    "question": "In Pandas, which method returns the first five rows by default?",
+    "options": ["tail()", "head()", "describe()", "shape()"],
+    "correctAnswer": "head()",
+    "topic": "Python",
+    "difficulty": "Moderate",
+    "explanation": "DataFrame.head() returns the first five rows unless another number is provided."
+  },
+  {
+    "id": 34,
+    "question": "Which Pandas method reports missing-value counts for each column?",
+    "options": ["df.sum()", "df.isna().sum()", "df.sort_values()", "df.head()"],
+    "correctAnswer": "df.isna().sum()",
+    "topic": "Data Cleaning",
+    "difficulty": "Moderate",
+    "explanation": "isna() identifies missing values and sum() counts them for each column by default."
+  },
+  {
+    "id": 35,
+    "question": "Which Pandas method removes duplicate rows?",
+    "options": ["drop_duplicates()", "remove_nulls()", "delete_columns()", "sort_index()"],
+    "correctAnswer": "drop_duplicates()",
+    "topic": "Data Cleaning",
+    "difficulty": "Moderate",
+    "explanation": "drop_duplicates() returns a DataFrame with duplicate rows removed."
+  },
+  {
+    "id": 36,
+    "question": "What does a Pandas DataFrame represent?",
+    "options": ["A two-dimensional labeled data structure", "A single integer", "A web server", "A database password"],
+    "correctAnswer": "A two-dimensional labeled data structure",
+    "topic": "Python",
+    "difficulty": "Moderate",
+    "explanation": "A DataFrame organizes data into labeled rows and columns."
+  },
+  {
+    "id": 37,
+    "question": "Which Python expression selects the column named sales from a DataFrame df?",
+    "options": ["df.sales()", "df['sales']", "df->sales", "sales(df)"],
+    "correctAnswer": "df['sales']",
+    "topic": "Python",
+    "difficulty": "Moderate",
+    "explanation": "Square-bracket column selection, df['sales'], accesses the sales column."
+  },
+  {
+    "id": 38,
+    "question": "What is the purpose of a Python dictionary?",
+    "options": ["Store key-value pairs", "Store only sorted numbers", "Create a chart automatically", "Connect to every database automatically"],
+    "correctAnswer": "Store key-value pairs",
+    "topic": "Python",
+    "difficulty": "Moderate",
+    "explanation": "A dictionary maps keys to corresponding values."
+  },
+  {
+    "id": 39,
+    "question": "Which measure is generally less affected by extreme outliers?",
+    "options": ["Mean", "Median", "Sum", "Maximum"],
+    "correctAnswer": "Median",
+    "topic": "Statistics",
+    "difficulty": "Moderate",
+    "explanation": "The median depends on the middle position and is usually less sensitive to extreme values than the mean."
+  },
+  {
+    "id": 40,
+    "question": "What does standard deviation measure?",
+    "options": ["The number of columns", "The spread of values around the mean", "The number of missing rows only", "The largest category name"],
+    "correctAnswer": "The spread of values around the mean",
+    "topic": "Statistics",
+    "difficulty": "Moderate",
+    "explanation": "Standard deviation describes how spread out values are around their mean."
+  },
+  {
+    "id": 41,
+    "question": "What does a correlation coefficient near +1 generally indicate?",
+    "options": ["A strong positive linear relationship", "No linear relationship in all cases", "A strong negative linear relationship", "That one variable causes the other"],
+    "correctAnswer": "A strong positive linear relationship",
+    "topic": "Statistics",
+    "difficulty": "Moderate",
+    "explanation": "A coefficient near +1 indicates a strong positive linear association, not necessarily causation."
+  },
+  {
+    "id": 42,
+    "question": "A product costs 200 and its price increases by 10%. What is the new price?",
+    "options": ["210", "220", "230", "240"],
+    "correctAnswer": "220",
+    "topic": "Statistics",
+    "difficulty": "Moderate",
+    "explanation": "Ten percent of 200 is 20, so the new price is 200 + 20 = 220."
+  },
+  {
+    "id": 43,
+    "question": "Which spreadsheet function calculates the arithmetic mean of a range?",
+    "options": ["=MEAN()", "=AVERAGE()", "=MID()", "=COUNT()"],
+    "correctAnswer": "=AVERAGE()",
+    "topic": "Spreadsheets",
+    "difficulty": "Moderate",
+    "explanation": "AVERAGE calculates the arithmetic mean of numeric values in the specified range."
+  },
+  {
+    "id": 44,
+    "question": "What is the main purpose of a pivot table?",
+    "options": ["Summarize and analyze data by categories", "Encrypt spreadsheet files", "Write application code", "Create database passwords"],
+    "correctAnswer": "Summarize and analyze data by categories",
+    "topic": "Spreadsheets",
+    "difficulty": "Moderate",
+    "explanation": "Pivot tables summarize data using grouping and aggregations such as sums and counts."
+  },
+  {
+    "id": 45,
+    "question": "Which chart is useful for examining the relationship between two numeric variables?",
+    "options": ["Scatter plot", "Pie chart", "Single-value card", "Stacked text list"],
+    "correctAnswer": "Scatter plot",
+    "topic": "Data Visualization",
+    "difficulty": "Moderate",
+    "explanation": "A scatter plot displays paired numeric values and helps reveal relationships and outliers."
+  },
+  {
+    "id": 46,
+    "question": "Why should an analyst standardize inconsistent date formats?",
+    "options": ["To make dates consistent and easier to analyze", "To remove all dates", "To increase duplicate rows", "To turn dates into passwords"],
+    "correctAnswer": "To make dates consistent and easier to analyze",
+    "topic": "Data Cleaning",
+    "difficulty": "Moderate",
+    "explanation": "Consistent date formats improve reliable sorting, filtering, and time-based analysis."
+  },
+  {
+    "id": 47,
+    "question": "What is an outlier?",
+    "options": ["A value unusually far from the rest of the data", "A column heading", "A missing table name", "A value that must always be deleted"],
+    "correctAnswer": "A value unusually far from the rest of the data",
+    "topic": "Statistics",
+    "difficulty": "Moderate",
+    "explanation": "An outlier is an observation that differs substantially from the general pattern; it should be investigated before deciding what to do."
+  },
+  {
+    "id": 48,
+    "question": "What is the main purpose of a data dashboard?",
+    "options": ["Present important metrics and trends in one place", "Replace every database", "Guarantee business growth", "Remove the need for validation"],
+    "correctAnswer": "Present important metrics and trends in one place",
+    "topic": "Data Visualization",
+    "difficulty": "Moderate",
+    "explanation": "Dashboards bring key measures and visualizations together to support monitoring and decisions."
+  },
+  {
+    "id": 49,
+    "question": "Which approach is appropriate when a numeric column contains missing values?",
+    "options": ["Always replace them with zero", "Investigate why they are missing and choose a suitable treatment", "Delete the entire dataset", "Change every value to text"],
+    "correctAnswer": "Investigate why they are missing and choose a suitable treatment",
+    "topic": "Data Cleaning",
+    "difficulty": "Moderate",
+    "explanation": "Missing-value treatment depends on the data, the reason for missingness, and the analysis objective."
+  },
+  {
+    "id": 50,
+    "question": "Why should an analyst validate data before reporting results?",
+    "options": ["To help ensure accuracy and consistency", "To guarantee a positive result", "To make every number larger", "To avoid documenting assumptions"],
+    "correctAnswer": "To help ensure accuracy and consistency",
+    "topic": "Data Quality",
+    "difficulty": "Moderate",
+    "explanation": "Validation can identify invalid, inconsistent, or unexpected values before they affect conclusions."
+  },
+  {
+    "id": 51,
+    "question": "A table contains several orders per customer. Which query pattern finds customers whose total order amount exceeds 10000?",
+    "options": ["GROUP BY customer_id with HAVING SUM(amount) > 10000", "WHERE SUM(amount) > 10000 without grouping", "ORDER BY amount > 10000", "SELECT DISTINCT amount > 10000"],
+    "correctAnswer": "GROUP BY customer_id with HAVING SUM(amount) > 10000",
+    "topic": "SQL",
+    "difficulty": "Hard",
+    "explanation": "Group orders by customer, calculate each total with SUM, and filter the groups using HAVING."
+  },
+  {
+    "id": 52,
+    "question": "A table has duplicate customer records. Which SQL approach can identify duplicate email addresses?",
+    "options": ["GROUP BY email HAVING COUNT(*) > 1", "ORDER BY email LIMIT 1", "DELETE FROM customers", "SELECT email WHERE COUNT(*) = 1 without grouping"],
+    "correctAnswer": "GROUP BY email HAVING COUNT(*) > 1",
+    "topic": "SQL",
+    "difficulty": "Hard",
+    "explanation": "Grouping by email and filtering groups with more than one row identifies repeated email values."
+  },
+  {
+    "id": 53,
+    "question": "A report must show every department, including departments with no employees. Which join should start from the departments table?",
+    "options": ["INNER JOIN employees", "LEFT JOIN employees", "CROSS JOIN employees", "A self-join on employees only"],
+    "correctAnswer": "LEFT JOIN employees",
+    "topic": "SQL",
+    "difficulty": "Hard",
+    "explanation": "A LEFT JOIN preserves every department from the left table, including departments without matching employees."
+  },
+  {
+    "id": 54,
+    "question": "You need the second-highest distinct salary from an employees table. Which approach is suitable?",
+    "options": ["Select MAX(salary) only", "Find the maximum salary below the overall maximum salary", "Select MIN(salary)", "Sort employee names alphabetically"],
+    "correctAnswer": "Find the maximum salary below the overall maximum salary",
+    "topic": "SQL",
+    "difficulty": "Hard",
+    "explanation": "The maximum salary among values below the overall maximum gives the second-highest distinct salary, when at least two distinct salaries exist."
+  },
+  {
+    "id": 55,
+    "question": "A SQL query uses COUNT(column_name). How are NULL values in that column treated?",
+    "options": ["They are counted as one each", "They are excluded from the count", "They cause the query to fail", "They are converted to zero automatically"],
+    "correctAnswer": "They are excluded from the count",
+    "topic": "SQL",
+    "difficulty": "Hard",
+    "explanation": "COUNT(column_name) counts non-NULL values, whereas COUNT(*) counts rows."
+  },
+  {
+    "id": 56,
+    "question": "A Python DataFrame has missing values in its income column. Which expression calculates the median while ignoring missing values?",
+    "options": ["df['income'].median()", "df['income'].count_nulls()", "df['income'].sort_values().first()", "df['income'].sum() / 0"],
+    "correctAnswer": "df['income'].median()",
+    "topic": "Python",
+    "difficulty": "Hard",
+    "explanation": "Pandas median() skips missing values by default unless configured otherwise."
+  },
+  {
+    "id": 57,
+    "question": "A dataset contains a category column and a sales column. Which Pandas pattern calculates total sales for each category?",
+    "options": ["df.groupby('category')['sales'].sum()", "df['sales'].groupby().sort()", "df.count('category', 'sales')", "df['category'].median()"],
+    "correctAnswer": "df.groupby('category')['sales'].sum()",
+    "topic": "Python",
+    "difficulty": "Hard",
+    "explanation": "groupby() creates category groups and sum() calculates total sales within each group."
+  },
+  {
+    "id": 58,
+    "question": "Why can filling every missing numeric value with zero distort an analysis?",
+    "options": ["Zero always represents the true value", "Missingness may have a different meaning from a genuine zero", "Zero cannot be stored in a DataFrame", "It automatically removes all outliers"],
+    "correctAnswer": "Missingness may have a different meaning from a genuine zero",
+    "topic": "Data Cleaning",
+    "difficulty": "Hard",
+    "explanation": "A missing value may mean unknown or unrecorded, while zero is a real numeric value; replacing all missing values with zero can bias results."
+  },
+  {
+    "id": 59,
+    "question": "A Python analysis needs to join two DataFrames using a customer_id column. Which Pandas function is designed for this?",
+    "options": ["pd.merge()", "pd.plot()", "pd.describe()", "pd.fill()"],
+    "correctAnswer": "pd.merge()",
+    "topic": "Python",
+    "difficulty": "Hard",
+    "explanation": "pd.merge() combines DataFrames using common columns or specified join keys."
+  },
+  {
+    "id": 60,
+    "question": "Why is it important to inspect data types before calculating statistics?",
+    "options": ["Numeric-looking text may not behave as numeric data", "Data types never affect calculations", "Every column must be an integer", "Changing types automatically fixes all missing values"],
+    "correctAnswer": "Numeric-looking text may not behave as numeric data",
+    "topic": "Data Quality",
+    "difficulty": "Hard",
+    "explanation": "Incorrect types can prevent calculations or produce misleading results, so columns should be checked and converted carefully."
+  },
+  {
+    "id": 61,
+    "question": "A dataset has a few extremely high income values. Which measure is usually more representative of a typical income?",
+    "options": ["Mean in every case", "Median", "Maximum", "Sum"],
+    "correctAnswer": "Median",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "explanation": "The median is less affected by extreme high values and often better represents a typical income in a skewed distribution."
+  },
+  {
+    "id": 62,
+    "question": "A correlation between advertising spend and sales is positive. What is the most accurate conclusion?",
+    "options": ["Advertising definitely caused every sales increase", "The variables have a positive association, but correlation alone does not establish causation", "Sales cannot change without advertising", "The data must be incorrect"],
+    "correctAnswer": "The variables have a positive association, but correlation alone does not establish causation",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "explanation": "Correlation measures association. Other variables or study design may be needed to support a causal claim."
+  },
+  {
+    "id": 63,
+    "question": "A model performs very well on training data but poorly on unseen data. What is a likely problem?",
+    "options": ["Overfitting", "Perfect generalization", "Data encryption", "Sorting"],
+    "correctAnswer": "Overfitting",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "explanation": "Overfitting occurs when a model learns training-specific patterns that do not generalize well to new data."
+  },
+  {
+    "id": 64,
+    "question": "A dataset has a long right tail. Which description is most appropriate?",
+    "options": ["It is positively skewed", "It is necessarily uniform", "It has no variation", "It must be negatively skewed"],
+    "correctAnswer": "It is positively skewed",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "explanation": "Positive or right skew means the distribution has a longer tail toward larger values."
+  },
+  {
+    "id": 65,
+    "question": "A 95% confidence interval is reported for a population mean using a valid frequentist method. What does the 95% refer to?",
+    "options": ["There is a 95% chance that every observed value lies inside it", "Across repeated samples, 95% of intervals constructed by the method would contain the true mean", "The sample mean is correct 95% of the time", "Exactly 95% of the population lies inside it"],
+    "correctAnswer": "Across repeated samples, 95% of intervals constructed by the method would contain the true mean",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "explanation": "The confidence level describes the long-run coverage rate of the interval-producing procedure under its assumptions."
+  },
+  {
+    "id": 66,
+    "question": "A sales dataset contains repeated transactions because the source system exported records twice. What should be done before calculating revenue?",
+    "options": ["Sum all rows immediately", "Investigate duplicates using transaction identifiers and remove confirmed duplicate records", "Replace every amount with its average", "Delete the customer column"],
+    "correctAnswer": "Investigate duplicates using transaction identifiers and remove confirmed duplicate records",
+    "topic": "Data Cleaning",
+    "difficulty": "Hard",
+    "explanation": "Confirmed duplicate transactions can inflate revenue totals. Deduplication should use reliable identifiers and business rules."
+  },
+  {
+    "id": 67,
+    "question": "Two datasets record customer ages, but one uses years and the other uses months. What is the best first step before combining them?",
+    "options": ["Add the values directly", "Convert both measurements to the same unit and validate the conversion", "Delete the age columns", "Sort both datasets by customer name only"],
+    "correctAnswer": "Convert both measurements to the same unit and validate the conversion",
+    "topic": "Data Quality",
+    "difficulty": "Hard",
+    "explanation": "Measurements must use consistent units before they can be meaningfully combined or compared."
+  },
+  {
+    "id": 68,
+    "question": "A dashboard compares monthly sales across several years. Which design best supports meaningful comparison?",
+    "options": ["Use inconsistent scales in each panel without explanation", "Use consistent time intervals, clear labels, and comparable axes", "Hide the date labels", "Use unrelated colors for every point without a legend"],
+    "correctAnswer": "Use consistent time intervals, clear labels, and comparable axes",
+    "topic": "Data Visualization",
+    "difficulty": "Hard",
+    "explanation": "Consistent scales and time intervals help viewers compare periods without being misled by the chart design."
+  },
+  {
+    "id": 69,
+    "question": "A pie chart contains 18 categories with similar values. Which alternative is often easier to compare?",
+    "options": ["A clearly labeled bar chart", "A pie chart with more slices", "A chart without labels", "A 3D pie chart with hidden values"],
+    "correctAnswer": "A clearly labeled bar chart",
+    "topic": "Data Visualization",
+    "difficulty": "Hard",
+    "explanation": "Bar lengths are generally easier to compare accurately than many similar pie slices."
+  },
+  {
+    "id": 70,
+    "question": "A report shows that average sales increased after a marketing campaign. Which additional step would strengthen the evaluation?",
+    "options": ["Assume the campaign caused the increase", "Compare against a suitable baseline or control and consider other changes", "Remove all pre-campaign data", "Report only the largest sale"],
+    "correctAnswer": "Compare against a suitable baseline or control and consider other changes",
+    "topic": "Business Analysis",
+    "difficulty": "Hard",
+    "explanation": "A baseline or suitable control and consideration of other factors help distinguish campaign effects from unrelated changes."
+  },
+  {
+    "id": 71,
+    "question": "A SQL report calculates average order value. Which formula is appropriate when order amounts are stored once per order?",
+    "options": ["SUM(order_amount) divided by COUNT(orders)", "COUNT(order_amount) divided by SUM(orders)", "MAX(order_amount) plus MIN(order_amount)", "SUM(order_amount) multiplied by COUNT(orders)"],
+    "correctAnswer": "SUM(order_amount) divided by COUNT(orders)",
+    "topic": "Business Analysis",
+    "difficulty": "Hard",
+    "explanation": "Average order value is total order amount divided by the number of orders, assuming one row per order and valid amounts."
+  },
+  {
+    "id": 72,
+    "question": "A dataset contains customer records with different spellings of the same city. What is the best approach?",
+    "options": ["Treat each spelling as a different city without checking", "Standardize city names using validated mapping rules", "Delete every city value", "Convert all city names to random numbers"],
+    "correctAnswer": "Standardize city names using validated mapping rules",
+    "topic": "Data Cleaning",
+    "difficulty": "Hard",
+    "explanation": "Validated standardization reduces inconsistent categories while avoiding incorrect assumptions about different places."
+  },
+  {
+    "id": 73,
+    "question": "An analyst randomly splits labeled data into training and test sets. Why should preprocessing parameters be learned from the training set only?",
+    "options": ["To prevent information from the test set leaking into training", "To make the test set larger automatically", "To guarantee 100% accuracy", "To remove the target variable from the entire dataset"],
+    "correctAnswer": "To prevent information from the test set leaking into training",
+    "topic": "Data Analysis",
+    "difficulty": "Hard",
+    "explanation": "Learning preprocessing parameters from the test set can leak information and produce an overly optimistic evaluation."
+  },
+  {
+    "id": 74,
+    "question": "A report's total differs from the source system's total. What is the most responsible next step?",
+    "options": ["Change the report until it looks right", "Reconcile filters, time periods, joins, duplicates, and calculation rules", "Ignore the difference", "Remove the source data"],
+    "correctAnswer": "Reconcile filters, time periods, joins, duplicates, and calculation rules",
+    "topic": "Data Quality",
+    "difficulty": "Hard",
+    "explanation": "Systematic reconciliation helps identify why totals differ and makes the report trustworthy."
+  },
+  {
+    "id": 75,
+    "question": "A dataset used for business reporting contains sensitive customer information. Which practice is most appropriate?",
+    "options": ["Share the full dataset publicly", "Restrict access to authorized users and minimize unnecessary personal data", "Include all personal details in every chart", "Remove all access controls"],
+    "correctAnswer": "Restrict access to authorized users and minimize unnecessary personal data",
+    "topic": "Data Governance",
+    "difficulty": "Hard",
+    "explanation": "Access controls and data minimization help protect privacy while allowing authorized analysis."
+  }
+]

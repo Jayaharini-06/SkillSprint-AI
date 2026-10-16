@@ -1,0 +1,678 @@
+
+[
+  {
+    "id": 1,
+    "question": "Which HTML tag creates a hyperlink?",
+    "options": ["<link>", "<a>", "<href>", "<url>"],
+    "correctAnswer": "<a>",
+    "topic": "HTML",
+    "difficulty": "Basic",
+    "explanation": "The a tag creates a hyperlink to another page or resource."
+  },
+  {
+    "id": 2,
+    "question": "Which HTML tag defines the largest standard heading?",
+    "options": ["<head>", "<h6>", "<h1>", "<heading>"],
+    "correctAnswer": "<h1>",
+    "topic": "HTML",
+    "difficulty": "Basic",
+    "explanation": "The h1 element represents the highest-level heading."
+  },
+  {
+    "id": 3,
+    "question": "Which HTML attribute specifies an image's source?",
+    "options": ["href", "src", "alt", "target"],
+    "correctAnswer": "src",
+    "topic": "HTML",
+    "difficulty": "Basic",
+    "explanation": "The src attribute specifies the image file or URL."
+  },
+  {
+    "id": 4,
+    "question": "Which CSS property changes text color?",
+    "options": ["font-style", "background", "color", "text-align"],
+    "correctAnswer": "color",
+    "topic": "CSS",
+    "difficulty": "Basic",
+    "explanation": "The color property sets the foreground color of text."
+  },
+  {
+    "id": 5,
+    "question": "Which CSS property adds space inside an element's border?",
+    "options": ["margin", "padding", "outline", "gap"],
+    "correctAnswer": "padding",
+    "topic": "CSS",
+    "difficulty": "Basic",
+    "explanation": "Padding is the space between an element's content and its border."
+  },
+  {
+    "id": 6,
+    "question": "Which CSS property changes the background color?",
+    "options": ["background-color", "font-color", "text-style", "border-space"],
+    "correctAnswer": "background-color",
+    "topic": "CSS",
+    "difficulty": "Basic",
+    "explanation": "The background-color property sets an element's background color."
+  },
+  {
+    "id": 7,
+    "question": "Which JavaScript keyword declares a block-scoped variable that can be reassigned?",
+    "options": ["const", "let", "static", "final"],
+    "correctAnswer": "let",
+    "topic": "JavaScript",
+    "difficulty": "Basic",
+    "explanation": "let declares a block-scoped variable whose value can be reassigned."
+  },
+  {
+    "id": 8,
+    "question": "Which JavaScript function displays a message in the browser console?",
+    "options": ["print()", "console.log()", "echo()", "show()"],
+    "correctAnswer": "console.log()",
+    "topic": "JavaScript",
+    "difficulty": "Basic",
+    "explanation": "console.log() writes messages and values to the browser console."
+  },
+  {
+    "id": 9,
+    "question": "Which JavaScript operator checks strict equality?",
+    "options": ["=", "==", "===", "!="],
+    "correctAnswer": "===",
+    "topic": "JavaScript",
+    "difficulty": "Basic",
+    "explanation": "The strict equality operator compares values without performing type conversion."
+  },
+  {
+    "id": 10,
+    "question": "Which HTML element creates a form?",
+    "options": ["<input>", "<form>", "<fieldset>", "<label>"],
+    "correctAnswer": "<form>",
+    "topic": "HTML",
+    "difficulty": "Basic",
+    "explanation": "The form element groups controls used to collect and submit user input."
+  },
+  {
+    "id": 11,
+    "question": "Which SQL command retrieves records from a database?",
+    "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+    "correctAnswer": "SELECT",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "SELECT retrieves data from one or more database tables."
+  },
+  {
+    "id": 12,
+    "question": "Which SQL clause filters rows using a condition?",
+    "options": ["ORDER BY", "WHERE", "GROUP BY", "CREATE"],
+    "correctAnswer": "WHERE",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "WHERE selects rows that satisfy a specified condition."
+  },
+  {
+    "id": 13,
+    "question": "What does CSS stand for?",
+    "options": ["Computer Style System", "Cascading Style Sheets", "Creative Software Syntax", "Colorful Style Scripts"],
+    "correctAnswer": "Cascading Style Sheets",
+    "topic": "Web Fundamentals",
+    "difficulty": "Basic",
+    "explanation": "CSS is used to style the appearance and layout of web pages."
+  },
+  {
+    "id": 14,
+    "question": "What does HTML primarily define?",
+    "options": ["The structure of a web page", "The database server", "The network connection", "The operating system"],
+    "correctAnswer": "The structure of a web page",
+    "topic": "Web Fundamentals",
+    "difficulty": "Basic",
+    "explanation": "HTML describes the structure and meaning of web page content."
+  },
+  {
+    "id": 15,
+    "question": "Which JavaScript data type represents true or false?",
+    "options": ["String", "Boolean", "Array", "Object"],
+    "correctAnswer": "Boolean",
+    "topic": "JavaScript",
+    "difficulty": "Basic",
+    "explanation": "The Boolean type represents the values true and false."
+  },
+  {
+    "id": 16,
+    "question": "Which HTTP method is commonly used to retrieve a resource?",
+    "options": ["GET", "POST", "DELETE", "PATCH"],
+    "correctAnswer": "GET",
+    "topic": "HTTP",
+    "difficulty": "Basic",
+    "explanation": "GET requests a representation of a resource from a server."
+  },
+  {
+    "id": 17,
+    "question": "Which HTTP status code normally indicates a successful request?",
+    "options": ["200", "301", "404", "500"],
+    "correctAnswer": "200",
+    "topic": "HTTP",
+    "difficulty": "Basic",
+    "explanation": "HTTP 200 means the request succeeded."
+  },
+  {
+    "id": 18,
+    "question": "Which JavaScript method selects an element by its ID?",
+    "options": ["document.getElementById()", "document.getByClass()", "window.getId()", "document.selectID()"],
+    "correctAnswer": "document.getElementById()",
+    "topic": "DOM",
+    "difficulty": "Basic",
+    "explanation": "getElementById() finds an element using its id attribute."
+  },
+  {
+    "id": 19,
+    "question": "What is the main purpose of a database?",
+    "options": ["Store and organize data", "Style web pages", "Render animations", "Compile CSS"],
+    "correctAnswer": "Store and organize data",
+    "topic": "Databases",
+    "difficulty": "Basic",
+    "explanation": "Databases store, organize, retrieve, and manage information."
+  },
+  {
+    "id": 20,
+    "question": "Which CSS layout system is designed for arranging items in one dimension?",
+    "options": ["Flexbox", "SQL", "HTML tables only", "JSON"],
+    "correctAnswer": "Flexbox",
+    "topic": "CSS",
+    "difficulty": "Basic",
+    "explanation": "Flexbox arranges items along a row or column."
+  },
+  {
+    "id": 21,
+    "question": "What does responsive web design help a page do?",
+    "options": ["Adapt to different screen sizes", "Run only on desktop computers", "Avoid all JavaScript", "Store database records"],
+    "correctAnswer": "Adapt to different screen sizes",
+    "topic": "Web Fundamentals",
+    "difficulty": "Basic",
+    "explanation": "Responsive design helps layouts work across mobile, tablet, and desktop screens."
+  },
+  {
+    "id": 22,
+    "question": "Which JavaScript structure repeats code while a condition is true?",
+    "options": ["if", "while", "switch", "return"],
+    "correctAnswer": "while",
+    "topic": "JavaScript",
+    "difficulty": "Basic",
+    "explanation": "A while loop repeats its body as long as its condition remains true."
+  },
+  {
+    "id": 23,
+    "question": "Which SQL command adds a new record?",
+    "options": ["INSERT INTO", "ADD RECORD", "NEW ROW", "CREATE VALUE"],
+    "correctAnswer": "INSERT INTO",
+    "topic": "SQL",
+    "difficulty": "Basic",
+    "explanation": "INSERT INTO adds new rows to a database table."
+  },
+  {
+    "id": 24,
+    "question": "What is the purpose of an API?",
+    "options": ["Allow software systems to communicate", "Change the monitor brightness", "Replace every database", "Format source code only"],
+    "correctAnswer": "Allow software systems to communicate",
+    "topic": "APIs",
+    "difficulty": "Basic",
+    "explanation": "An API defines how software components or systems can interact."
+  },
+  {
+    "id": 25,
+    "question": "Which Git command creates a local copy of a remote repository?",
+    "options": ["git clone", "git push", "git commit", "git status"],
+    "correctAnswer": "git clone",
+    "topic": "Git",
+    "difficulty": "Basic",
+    "explanation": "git clone copies a repository and its available history to the local machine."
+  },
+  {
+    "id": 26,
+    "question": "What is the purpose of the DOM in a browser?",
+    "options": ["Represent a document as objects that scripts can access", "Store encrypted passwords automatically", "Compile Java programs", "Replace HTTP"],
+    "correctAnswer": "Represent a document as objects that scripts can access",
+    "topic": "DOM",
+    "difficulty": "Moderate",
+    "explanation": "The Document Object Model represents page content as objects that JavaScript can inspect and modify."
+  },
+  {
+    "id": 27,
+    "question": "Which JavaScript method attaches an event handler to an element?",
+    "options": ["addEventListener()", "attachDatabase()", "setEventName()", "listenHTML()"],
+    "correctAnswer": "addEventListener()",
+    "topic": "JavaScript",
+    "difficulty": "Moderate",
+    "explanation": "addEventListener() registers a function to respond to events such as clicks."
+  },
+  {
+    "id": 28,
+    "question": "What does JSON.parse() do?",
+    "options": ["Converts a JSON string into a JavaScript value", "Converts every object into HTML", "Sends an HTTP request", "Encrypts a string"],
+    "correctAnswer": "Converts a JSON string into a JavaScript value",
+    "topic": "JavaScript",
+    "difficulty": "Moderate",
+    "explanation": "JSON.parse() parses valid JSON text into a JavaScript value."
+  },
+  {
+    "id": 29,
+    "question": "What does JSON.stringify() do?",
+    "options": ["Converts a JavaScript value into a JSON string", "Runs SQL queries", "Creates a browser window", "Validates a password automatically"],
+    "correctAnswer": "Converts a JavaScript value into a JSON string",
+    "topic": "JavaScript",
+    "difficulty": "Moderate",
+    "explanation": "JSON.stringify() serializes supported JavaScript values into JSON text."
+  },
+  {
+    "id": 30,
+    "question": "Which HTTP method is commonly used to submit data that creates a resource?",
+    "options": ["GET", "POST", "HEAD", "OPTIONS"],
+    "correctAnswer": "POST",
+    "topic": "HTTP",
+    "difficulty": "Moderate",
+    "explanation": "POST commonly submits data for processing or resource creation."
+  },
+  {
+    "id": 31,
+    "question": "What does HTTP status code 404 usually mean?",
+    "options": ["The resource was not found", "The request succeeded", "The server restarted successfully", "The user was authenticated"],
+    "correctAnswer": "The resource was not found",
+    "topic": "HTTP",
+    "difficulty": "Moderate",
+    "explanation": "HTTP 404 indicates that the requested resource could not be found."
+  },
+  {
+    "id": 32,
+    "question": "Why is input validation important on the server?",
+    "options": ["Client-side checks can be bypassed", "Browsers always send safe data", "It removes the need for authentication", "It guarantees zero software bugs"],
+    "correctAnswer": "Client-side checks can be bypassed",
+    "topic": "Backend Development",
+    "difficulty": "Moderate",
+    "explanation": "Server-side validation checks incoming data even when a client bypasses browser-side checks."
+  },
+  {
+    "id": 33,
+    "question": "Which SQL constraint uniquely identifies each row in a table?",
+    "options": ["PRIMARY KEY", "DEFAULT", "CHECK only", "ORDER BY"],
+    "correctAnswer": "PRIMARY KEY",
+    "topic": "Databases",
+    "difficulty": "Moderate",
+    "explanation": "A primary key uniquely identifies rows and does not permit NULL key values."
+  },
+  {
+    "id": 34,
+    "question": "What is the purpose of a foreign key?",
+    "options": ["Link related tables and enforce a relationship", "Encrypt the database", "Sort all rows alphabetically", "Create CSS classes"],
+    "correctAnswer": "Link related tables and enforce a relationship",
+    "topic": "Databases",
+    "difficulty": "Moderate",
+    "explanation": "A foreign key references a key in another or the same table and can enforce referential integrity."
+  },
+  {
+    "id": 35,
+    "question": "Which SQL clause groups rows for aggregate calculations?",
+    "options": ["GROUP BY", "ORDER BY", "LIMIT", "DISTINCT only"],
+    "correctAnswer": "GROUP BY",
+    "topic": "SQL",
+    "difficulty": "Moderate",
+    "explanation": "GROUP BY combines rows with matching values into groups for aggregate calculations."
+  },
+  {
+    "id": 36,
+    "question": "What is the main benefit of using prepared statements for SQL queries?",
+    "options": ["They help prevent SQL injection when used correctly", "They automatically make every query faster", "They replace database permissions", "They encrypt every database file"],
+    "correctAnswer": "They help prevent SQL injection when used correctly",
+    "topic": "Database Security",
+    "difficulty": "Moderate",
+    "explanation": "Parameterized queries separate SQL structure from supplied values, helping prevent SQL injection."
+  },
+  {
+    "id": 37,
+    "question": "What does responsive CSS media querying allow developers to do?",
+    "options": ["Apply styles based on device or viewport conditions", "Run SQL statements", "Create user accounts", "Replace the HTML document"],
+    "correctAnswer": "Apply styles based on device or viewport conditions",
+    "topic": "CSS",
+    "difficulty": "Moderate",
+    "explanation": "Media queries apply CSS rules when conditions such as viewport width are met."
+  },
+  {
+    "id": 38,
+    "question": "What is the purpose of CSS Grid?",
+    "options": ["Create two-dimensional layouts with rows and columns", "Send requests to a server", "Store browser cookies", "Validate SQL syntax"],
+    "correctAnswer": "Create two-dimensional layouts with rows and columns",
+    "topic": "CSS",
+    "difficulty": "Moderate",
+    "explanation": "CSS Grid is designed for layouts organized in rows and columns."
+  },
+  {
+    "id": 39,
+    "question": "What does the JavaScript map() method normally return?",
+    "options": ["A new array containing transformed results", "The original array's length only", "A database connection", "A CSS stylesheet"],
+    "correctAnswer": "A new array containing transformed results",
+    "topic": "JavaScript",
+    "difficulty": "Moderate",
+    "explanation": "map() applies a callback to each array element and returns a new array of results."
+  },
+  {
+    "id": 40,
+    "question": "What is a JavaScript Promise used for?",
+    "options": ["Represent the eventual result of an asynchronous operation", "Define a CSS selector", "Create a relational table", "Replace every function"],
+    "correctAnswer": "Represent the eventual result of an asynchronous operation",
+    "topic": "Asynchronous JavaScript",
+    "difficulty": "Moderate",
+    "explanation": "A Promise represents a future fulfillment value or rejection reason."
+  },
+  {
+    "id": 41,
+    "question": "What does async/await help developers do?",
+    "options": ["Write Promise-based asynchronous code in a more readable style", "Make all operations synchronous", "Remove error handling", "Replace HTTP methods"],
+    "correctAnswer": "Write Promise-based asynchronous code in a more readable style",
+    "topic": "Asynchronous JavaScript",
+    "difficulty": "Moderate",
+    "explanation": "async and await make Promise-based control flow easier to read; awaited operations remain asynchronous."
+  },
+  {
+    "id": 42,
+    "question": "What is CORS used for in browsers?",
+    "options": ["Control cross-origin access to resources through HTTP headers", "Encrypt all database rows", "Compile JavaScript into SQL", "Create HTML forms"],
+    "correctAnswer": "Control cross-origin access to resources through HTTP headers",
+    "topic": "Web Security",
+    "difficulty": "Moderate",
+    "explanation": "Cross-Origin Resource Sharing uses server response headers to permit specified cross-origin browser requests."
+  },
+  {
+    "id": 43,
+    "question": "Why should passwords generally be stored as salted password hashes?",
+    "options": ["To avoid storing passwords in directly readable form", "To let every employee read passwords", "To make passwords public", "To eliminate the need for account protection"],
+    "correctAnswer": "To avoid storing passwords in directly readable form",
+    "topic": "Authentication",
+    "difficulty": "Moderate",
+    "explanation": "Salted password hashing reduces the impact of database exposure; passwords should not be stored in plaintext."
+  },
+  {
+    "id": 44,
+    "question": "What is the main purpose of a Git commit?",
+    "options": ["Record a snapshot of staged changes in repository history", "Upload files automatically to every server", "Delete the remote repository", "Install a database"],
+    "correctAnswer": "Record a snapshot of staged changes in repository history",
+    "topic": "Git",
+    "difficulty": "Moderate",
+    "explanation": "A commit records staged changes as a new point in local repository history."
+  },
+  {
+    "id": 45,
+    "question": "What does an environment variable commonly store in an application?",
+    "options": ["Configuration values that can vary by environment", "Only HTML tags", "The entire browser history", "Only CSS animations"],
+    "correctAnswer": "Configuration values that can vary by environment",
+    "topic": "Deployment",
+    "difficulty": "Moderate",
+    "explanation": "Environment variables can configure settings such as service URLs and credentials without hard-coding them in source."
+  },
+  {
+    "id": 46,
+    "question": "Why is database normalization used?",
+    "options": ["Reduce unnecessary duplication and improve data integrity", "Duplicate every value", "Remove all relationships", "Replace all queries with images"],
+    "correctAnswer": "Reduce unnecessary duplication and improve data integrity",
+    "topic": "Databases",
+    "difficulty": "Moderate",
+    "explanation": "Normalization organizes relational data to reduce redundancy and update anomalies."
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of pagination in an API?",
+    "options": ["Return large result sets in manageable portions", "Encrypt every response", "Change the HTTP protocol", "Remove all database indexes"],
+    "correctAnswer": "Return large result sets in manageable portions",
+    "topic": "API Design",
+    "difficulty": "Moderate",
+    "explanation": "Pagination limits the amount of data returned per request and supports more efficient browsing."
+  },
+  {
+    "id": 48,
+    "question": "What is the main role of middleware in a backend framework?",
+    "options": ["Process requests or responses between stages of handling", "Style browser headings", "Replace the database schema", "Create image files only"],
+    "correctAnswer": "Process requests or responses between stages of handling",
+    "topic": "Backend Development",
+    "difficulty": "Moderate",
+    "explanation": "Middleware can handle tasks such as logging, authentication checks, parsing, and error handling."
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of automated tests in a web application?",
+    "options": ["Check that specified behavior works as expected", "Guarantee the application can never fail", "Replace all documentation", "Remove the need for code reviews"],
+    "correctAnswer": "Check that specified behavior works as expected",
+    "topic": "Testing",
+    "difficulty": "Moderate",
+    "explanation": "Automated tests help detect regressions and verify expected application behavior."
+  },
+  {
+    "id": 50,
+    "question": "Why should errors returned by a backend avoid exposing stack traces to ordinary users?",
+    "options": ["Stack traces can reveal internal implementation details", "Stack traces improve password security when public", "Browsers cannot display text", "HTTP does not support error responses"],
+    "correctAnswer": "Stack traces can reveal internal implementation details",
+    "topic": "Backend Security",
+    "difficulty": "Moderate",
+    "explanation": "Detailed internal errors may expose paths, dependencies, or other information useful to attackers."
+  },
+  {
+    "id": 51,
+    "question": "A web form submits the same payment twice because the user clicks the button repeatedly. Which design helps prevent duplicate payment processing?",
+    "options": ["Use an idempotency key and enforce its handling on the server", "Disable all server validation", "Send every payment request to a different endpoint", "Store the card number in browser local storage"],
+    "correctAnswer": "Use an idempotency key and enforce its handling on the server",
+    "topic": "API Design",
+    "difficulty": "Hard",
+    "explanation": "A server-managed idempotency key allows repeated requests to return the existing result instead of creating duplicate operations."
+  },
+  {
+    "id": 52,
+    "question": "A backend receives user input that will be included in an SQL query. Which approach best prevents SQL injection?",
+    "options": ["Concatenate the input into the SQL string", "Use parameterized queries and validate input appropriately", "Hide the input field with CSS", "Encode the input as a URL only"],
+    "correctAnswer": "Use parameterized queries and validate input appropriately",
+    "topic": "Database Security",
+    "difficulty": "Hard",
+    "explanation": "Parameterized queries keep user-supplied values separate from SQL syntax."
+  },
+  {
+    "id": 53,
+    "question": "An API endpoint must allow users to view only their own assessment reports. What should the backend do?",
+    "options": ["Trust the user ID sent by the browser without checking", "Authenticate the user and authorize access to the requested report", "Hide the report link using CSS only", "Allow access to every authenticated user"],
+    "correctAnswer": "Authenticate the user and authorize access to the requested report",
+    "topic": "Authorization",
+    "difficulty": "Hard",
+    "explanation": "Authentication establishes the user identity, while authorization verifies permission to access the specific report."
+  },
+  {
+    "id": 54,
+    "question": "A browser sends a request with a valid-looking session cookie. Which server-side check is still important?",
+    "options": ["Verify the session and its authorization before serving protected data", "Assume every cookie is trustworthy", "Allow access based only on the page URL", "Disable all session expiration"],
+    "correctAnswer": "Verify the session and its authorization before serving protected data",
+    "topic": "Authentication",
+    "difficulty": "Hard",
+    "explanation": "Cookies can be missing, expired, or stolen, so the server must validate the session and enforce permissions."
+  },
+  {
+    "id": 55,
+    "question": "A website displays user-submitted comments. Which practice best reduces the risk of stored cross-site scripting?",
+    "options": ["Render untrusted text as executable HTML", "Use context-appropriate output encoding and sanitize permitted HTML", "Trust every comment because it came from a form", "Store comments only in a SQL table"],
+    "correctAnswer": "Use context-appropriate output encoding and sanitize permitted HTML",
+    "topic": "Web Security",
+    "difficulty": "Hard",
+    "explanation": "Safe output handling prevents untrusted content from being interpreted as executable script."
+  },
+  {
+    "id": 56,
+    "question": "A frontend request to a third-party API fails because of a browser CORS error. What is the appropriate fix when the third-party server does not allow the origin?",
+    "options": ["Disable browser security for all users", "Use an authorized backend integration or configure the API server's CORS policy if you control it", "Add a CSS rule", "Change the request method randomly"],
+    "correctAnswer": "Use an authorized backend integration or configure the API server's CORS policy if you control it",
+    "topic": "Web Security",
+    "difficulty": "Hard",
+    "explanation": "CORS permissions must be configured by the server providing the resource; a backend can be used when appropriate and authorized."
+  },
+  {
+    "id": 57,
+    "question": "Two database requests update the same account balance concurrently. Which approach helps maintain correct results?",
+    "options": ["Use appropriate transactions and concurrency control", "Store balances only in browser memory", "Remove all constraints", "Run updates without checking the data"],
+    "correctAnswer": "Use appropriate transactions and concurrency control",
+    "topic": "Database Transactions",
+    "difficulty": "Hard",
+    "explanation": "Transactions and suitable locking or optimistic concurrency checks help prevent conflicting updates and lost changes."
+  },
+  {
+    "id": 58,
+    "question": "A database query becomes slow as a table grows. What is a sensible first step?",
+    "options": ["Measure query performance and inspect the execution plan", "Delete random records", "Add indexes to every column without analysis", "Increase the font size in the frontend"],
+    "correctAnswer": "Measure query performance and inspect the execution plan",
+    "topic": "Database Performance",
+    "difficulty": "Hard",
+    "explanation": "Profiling and query plans reveal bottlenecks and help determine whether indexing or query changes are appropriate."
+  },
+  {
+    "id": 59,
+    "question": "A REST API uses PUT to replace a resource at a known URI. Which property is normally expected of PUT?",
+    "options": ["It is idempotent", "It must create a new resource on every retry", "It can only retrieve data", "It cannot include a request body"],
+    "correctAnswer": "It is idempotent",
+    "topic": "API Design",
+    "difficulty": "Hard",
+    "explanation": "PUT is defined as idempotent: repeating the same request should have the same intended effect as making it once."
+  },
+  {
+    "id": 60,
+    "question": "A frontend loads data from three independent APIs. The screen should display results after all three requests succeed. Which approach is suitable?",
+    "options": ["Promise.all() with appropriate error handling", "Call each request without waiting and assume completion order", "Use JSON.stringify() to start requests", "Put all requests inside a CSS selector"],
+    "correctAnswer": "Promise.all() with appropriate error handling",
+    "topic": "Asynchronous JavaScript",
+    "difficulty": "Hard",
+    "explanation": "Promise.all() fulfills when all supplied promises fulfill and rejects if one rejects; error handling should reflect the application's needs."
+  },
+  {
+    "id": 61,
+    "question": "A search box sends a request for every keystroke and overloads the API. Which frontend technique reduces unnecessary requests?",
+    "options": ["Debouncing input", "Increasing font size", "Disabling response handling", "Duplicating every request"],
+    "correctAnswer": "Debouncing input",
+    "topic": "Frontend Performance",
+    "difficulty": "Hard",
+    "explanation": "Debouncing waits for a pause in input before running an action, reducing excessive requests."
+  },
+  {
+    "id": 62,
+    "question": "A user navigates away while a frontend data request is still running. Which browser feature can help cancel a fetch request?",
+    "options": ["AbortController", "JSON.stringify()", "localStorage.setItem()", "document.title"],
+    "correctAnswer": "AbortController",
+    "topic": "Asynchronous JavaScript",
+    "difficulty": "Hard",
+    "explanation": "AbortController can signal cancellation of fetch requests and other supported asynchronous operations."
+  },
+  {
+    "id": 63,
+    "question": "A frontend displays stale search results when an older request finishes after a newer request. What is a suitable solution?",
+    "options": ["Track request order or cancel obsolete requests before updating the UI", "Always display whichever response arrives last", "Remove all loading indicators", "Sort the results by filename"],
+    "correctAnswer": "Track request order or cancel obsolete requests before updating the UI",
+    "topic": "Frontend Performance",
+    "difficulty": "Hard",
+    "explanation": "Request tracking or cancellation prevents obsolete responses from overwriting newer search results."
+  },
+  {
+    "id": 64,
+    "question": "An application needs to store a private database password. Where should it normally be kept?",
+    "options": ["In public frontend JavaScript", "In a protected server-side secret or environment configuration", "In a public Git repository", "Inside an HTML comment"],
+    "correctAnswer": "In a protected server-side secret or environment configuration",
+    "topic": "Deployment Security",
+    "difficulty": "Hard",
+    "explanation": "Private credentials must remain on the server and should not be exposed in browser code or public repositories."
+  },
+  {
+    "id": 65,
+    "question": "A deployment works locally but fails in production because a required configuration value is missing. What is the best practice?",
+    "options": ["Document and validate required environment configuration during startup", "Hard-code every secret into frontend files", "Ignore the missing value", "Disable application error logging"],
+    "correctAnswer": "Document and validate required environment configuration during startup",
+    "topic": "Deployment",
+    "difficulty": "Hard",
+    "explanation": "Startup validation makes missing configuration easier to detect and prevents confusing failures later."
+  },
+  {
+    "id": 66,
+    "question": "A team wants to release a change without disrupting the existing application. Which practice is most helpful?",
+    "options": ["Use automated tests and a controlled deployment with a rollback plan", "Replace production files without testing", "Remove the previous release immediately", "Disable monitoring during deployment"],
+    "correctAnswer": "Use automated tests and a controlled deployment with a rollback plan",
+    "topic": "DevOps",
+    "difficulty": "Hard",
+    "explanation": "Testing, controlled rollout, monitoring, and rollback planning reduce deployment risk."
+  },
+  {
+    "id": 67,
+    "question": "An API returns an internal exception message containing database details. What should a production API normally return instead?",
+    "options": ["A safe error message with an appropriate status code and a traceable server-side log", "The complete database password", "The full stack trace to every user", "A successful status regardless of failure"],
+    "correctAnswer": "A safe error message with an appropriate status code and a traceable server-side log",
+    "topic": "Backend Security",
+    "difficulty": "Hard",
+    "explanation": "Client responses should avoid exposing sensitive implementation details while server logs preserve information needed for debugging."
+  },
+  {
+    "id": 68,
+    "question": "A backend sends multiple records in a single response. Which format is commonly used for REST API data exchange?",
+    "options": ["JSON", "CSS", "PNG only", "SQL source code only"],
+    "correctAnswer": "JSON",
+    "topic": "API Design",
+    "difficulty": "Hard",
+    "explanation": "JSON is a widely used lightweight data-interchange format for web APIs."
+  },
+  {
+    "id": 69,
+    "question": "A database schema change is required during deployment. What is a safer approach?",
+    "options": ["Plan and test a migration with backups and compatibility considerations", "Edit production tables randomly", "Delete all old data first", "Assume schema changes never fail"],
+    "correctAnswer": "Plan and test a migration with backups and compatibility considerations",
+    "topic": "Database Management",
+    "difficulty": "Hard",
+    "explanation": "Tested migrations and recovery planning reduce the risk of data loss and incompatible application versions."
+  },
+  {
+    "id": 70,
+    "question": "An API needs to limit excessive requests from one client. Which server-side mechanism is appropriate?",
+    "options": ["Rate limiting", "CSS Grid", "HTML headings", "Database normalization alone"],
+    "correctAnswer": "Rate limiting",
+    "topic": "API Security",
+    "difficulty": "Hard",
+    "explanation": "Rate limiting restricts request frequency and can help protect services from abuse or overload."
+  },
+  {
+    "id": 71,
+    "question": "A web application must support users with different permissions. Which design is most appropriate?",
+    "options": ["Enforce role or permission checks on the server for protected operations", "Hide restricted buttons but allow every API request", "Trust a role name supplied by the browser", "Give every account administrator privileges"],
+    "correctAnswer": "Enforce role or permission checks on the server for protected operations",
+    "topic": "Authorization",
+    "difficulty": "Hard",
+    "explanation": "The server must enforce permissions because client-side controls can be bypassed."
+  },
+  {
+    "id": 72,
+    "question": "A frontend must render user-provided plain text. Which approach is safer than inserting the text as raw HTML?",
+    "options": ["Use textContent", "Use eval()", "Insert it with unrestricted innerHTML", "Execute it as JavaScript"],
+    "correctAnswer": "Use textContent",
+    "topic": "Web Security",
+    "difficulty": "Hard",
+    "explanation": "textContent inserts content as text rather than interpreting it as HTML markup."
+  },
+  {
+    "id": 73,
+    "question": "An API response includes a large amount of sensitive information the frontend does not need. What should the backend do?",
+    "options": ["Return only the fields needed and authorized for that request", "Return every database column", "Rely on CSS to hide sensitive values", "Send secrets and remove them after rendering"],
+    "correctAnswer": "Return only the fields needed and authorized for that request",
+    "topic": "API Security",
+    "difficulty": "Hard",
+    "explanation": "Data minimization reduces unnecessary exposure and limits the impact of accidental disclosure."
+  },
+  {
+    "id": 74,
+    "question": "A web application is slow because the frontend downloads a very large JavaScript bundle. Which technique can help?",
+    "options": ["Code splitting and lazy loading where appropriate", "Duplicate the bundle several times", "Remove all caching headers", "Move every CSS rule into JavaScript"],
+    "correctAnswer": "Code splitting and lazy loading where appropriate",
+    "topic": "Frontend Performance",
+    "difficulty": "Hard",
+    "explanation": "Code splitting can reduce the initial bundle size by loading code when needed."
+  },
+  {
+    "id": 75,
+    "question": "An application stores assessment scores and must produce reliable reports. Which design is most appropriate?",
+    "options": ["Calculate scores on the trusted backend using verified answers and persist the results reliably", "Accept the final score directly from the browser without verification", "Ask the frontend to randomly generate scores", "Use the displayed answer color as the score"],
+    "correctAnswer": "Calculate scores on the trusted backend using verified answers and persist the results reliably",
+    "topic": "Full Stack Architecture",
+    "difficulty": "Hard",
+    "explanation": "Server-side scoring using a verified answer key prevents users from manipulating results through browser requests."
+  }
+]

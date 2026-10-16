@@ -1,0 +1,678 @@
+
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to create a class in Java?",
+    "options": ["class", "create", "struct", "object"],
+    "correctAnswer": "class",
+    "topic": "Java Basics",
+    "difficulty": "Basic",
+    "explanation": "The class keyword defines a class in Java."
+  },
+  {
+    "id": 2,
+    "question": "Which method is the entry point of a standard Java application?",
+    "options": ["start()", "main()", "run()", "execute()"],
+    "correctAnswer": "main()",
+    "topic": "Java Basics",
+    "difficulty": "Basic",
+    "explanation": "The main method is the standard entry point of a Java application."
+  },
+  {
+    "id": 3,
+    "question": "Which data type stores whole numbers in Java?",
+    "options": ["int", "float", "char", "boolean"],
+    "correctAnswer": "int",
+    "topic": "Data Types",
+    "difficulty": "Basic",
+    "explanation": "The int data type stores 32-bit signed whole numbers."
+  },
+  {
+    "id": 4,
+    "question": "Which symbol terminates most Java statements?",
+    "options": [".", ",", ";", ":"],
+    "correctAnswer": ";",
+    "topic": "Java Syntax",
+    "difficulty": "Basic",
+    "explanation": "A semicolon terminates most Java statements."
+  },
+  {
+    "id": 5,
+    "question": "Which keyword is used to create an object?",
+    "options": ["class", "new", "this", "void"],
+    "correctAnswer": "new",
+    "topic": "OOP",
+    "difficulty": "Basic",
+    "explanation": "The new keyword creates an object and invokes its constructor."
+  },
+  {
+    "id": 6,
+    "question": "Which data type stores true or false values?",
+    "options": ["int", "char", "boolean", "String"],
+    "correctAnswer": "boolean",
+    "topic": "Data Types",
+    "difficulty": "Basic",
+    "explanation": "The boolean data type stores either true or false."
+  },
+  {
+    "id": 7,
+    "question": "Which operator checks equality between primitive values?",
+    "options": ["=", "==", "!=", "&&"],
+    "correctAnswer": "==",
+    "topic": "Operators",
+    "difficulty": "Basic",
+    "explanation": "The == operator compares primitive values for equality. For objects, it compares references."
+  },
+  {
+    "id": 8,
+    "question": "Which loop executes its body at least once?",
+    "options": ["for", "while", "do-while", "enhanced for"],
+    "correctAnswer": "do-while",
+    "topic": "Loops",
+    "difficulty": "Basic",
+    "explanation": "A do-while loop checks its condition after executing the body."
+  },
+  {
+    "id": 9,
+    "question": "Which statement immediately exits a loop?",
+    "options": ["continue", "break", "skip", "next"],
+    "correctAnswer": "break",
+    "topic": "Control Statements",
+    "difficulty": "Basic",
+    "explanation": "The break statement terminates the nearest enclosing loop or switch."
+  },
+  {
+    "id": 10,
+    "question": "Which keyword declares a method that does not return a value?",
+    "options": ["null", "static", "void", "return"],
+    "correctAnswer": "void",
+    "topic": "Methods",
+    "difficulty": "Basic",
+    "explanation": "The void keyword indicates that a method does not return a value."
+  },
+  {
+    "id": 11,
+    "question": "Which class is commonly used to read keyboard input in Java?",
+    "options": ["Scanner", "Printer", "ReaderOnly", "InputClass"],
+    "correctAnswer": "Scanner",
+    "topic": "Input and Output",
+    "difficulty": "Basic",
+    "explanation": "The Scanner class can read keyboard input from System.in."
+  },
+  {
+    "id": 12,
+    "question": "Which package contains the Scanner class?",
+    "options": ["java.io", "java.util", "java.net", "java.sql"],
+    "correctAnswer": "java.util",
+    "topic": "Packages",
+    "difficulty": "Basic",
+    "explanation": "Scanner is part of the java.util package."
+  },
+  {
+    "id": 13,
+    "question": "Which keyword is used to inherit a class?",
+    "options": ["implements", "inherits", "extends", "superclass"],
+    "correctAnswer": "extends",
+    "topic": "Inheritance",
+    "difficulty": "Basic",
+    "explanation": "A class uses extends to inherit from another class."
+  },
+  {
+    "id": 14,
+    "question": "Which keyword is used to define a constant-like variable that cannot be reassigned?",
+    "options": ["static", "final", "const", "fixed"],
+    "correctAnswer": "final",
+    "topic": "Variables",
+    "difficulty": "Basic",
+    "explanation": "A final variable can be assigned only once."
+  },
+  {
+    "id": 15,
+    "question": "Which collection stores elements in a resizable array-like structure?",
+    "options": ["ArrayList", "HashMap", "TreeSet", "Queue"],
+    "correctAnswer": "ArrayList",
+    "topic": "Collections",
+    "difficulty": "Basic",
+    "explanation": "ArrayList is a resizable list implementation."
+  },
+  {
+    "id": 16,
+    "question": "Which keyword is used to handle an exception?",
+    "options": ["try", "check", "error", "throwing"],
+    "correctAnswer": "try",
+    "topic": "Exception Handling",
+    "difficulty": "Basic",
+    "explanation": "A try block contains code that may throw an exception."
+  },
+  {
+    "id": 17,
+    "question": "Which method returns the length of a String?",
+    "options": ["size()", "length()", "count()", "getSize()"],
+    "correctAnswer": "length()",
+    "topic": "Strings",
+    "difficulty": "Basic",
+    "explanation": "The String length() method returns the number of characters in the string."
+  },
+  {
+    "id": 18,
+    "question": "Which operator represents logical AND?",
+    "options": ["||", "&&", "&|", "!"],
+    "correctAnswer": "&&",
+    "topic": "Operators",
+    "difficulty": "Basic",
+    "explanation": "The && operator performs short-circuit logical AND."
+  },
+  {
+    "id": 19,
+    "question": "Which access modifier allows access from anywhere, subject to class accessibility?",
+    "options": ["private", "protected", "public", "default"],
+    "correctAnswer": "public",
+    "topic": "Access Modifiers",
+    "difficulty": "Basic",
+    "explanation": "A public member can be accessed from any location where its declaring type is accessible."
+  },
+  {
+    "id": 20,
+    "question": "What is the default value of an instance variable of type int?",
+    "options": ["1", "null", "0", "-1"],
+    "correctAnswer": "0",
+    "topic": "Variables",
+    "difficulty": "Basic",
+    "explanation": "An instance field of type int defaults to zero."
+  },
+  {
+    "id": 21,
+    "question": "Which keyword refers to the current object?",
+    "options": ["self", "this", "current", "object"],
+    "correctAnswer": "this",
+    "topic": "OOP",
+    "difficulty": "Basic",
+    "explanation": "The this keyword refers to the current object instance."
+  },
+  {
+    "id": 22,
+    "question": "Which of these is not a primitive Java data type?",
+    "options": ["int", "double", "boolean", "String"],
+    "correctAnswer": "String",
+    "topic": "Data Types",
+    "difficulty": "Basic",
+    "explanation": "String is a class, not a primitive data type."
+  },
+  {
+    "id": 23,
+    "question": "Which keyword is used to define a conditional branch after if?",
+    "options": ["otherwise", "elif", "else", "then"],
+    "correctAnswer": "else",
+    "topic": "Control Statements",
+    "difficulty": "Basic",
+    "explanation": "The else block runs when the associated if condition is false and no earlier branch matches."
+  },
+  {
+    "id": 24,
+    "question": "Which method can print text followed by a new line?",
+    "options": ["System.out.print()", "System.out.println()", "System.in.read()", "Console.input()"],
+    "correctAnswer": "System.out.println()",
+    "topic": "Input and Output",
+    "difficulty": "Basic",
+    "explanation": "System.out.println() prints the supplied value and then a line separator."
+  },
+  {
+    "id": 25,
+    "question": "Which OOP concept combines data and methods into a single unit?",
+    "options": ["Encapsulation", "Recursion", "Compilation", "Iteration"],
+    "correctAnswer": "Encapsulation",
+    "topic": "OOP",
+    "difficulty": "Basic",
+    "explanation": "Encapsulation bundles data and related methods within a class and can control access to the data."
+  },
+  {
+    "id": 26,
+    "question": "What is the output of int x = 5; System.out.println(x++);?",
+    "options": ["4", "5", "6", "Compilation error"],
+    "correctAnswer": "5",
+    "topic": "Operators",
+    "difficulty": "Moderate",
+    "explanation": "Post-increment uses the current value in the expression and increments x afterward."
+  },
+  {
+    "id": 27,
+    "question": "Which statement about Java constructors is correct?",
+    "options": ["A constructor must return int", "A constructor has the same name as its class", "A constructor must be static", "A constructor is inherited by subclasses"],
+    "correctAnswer": "A constructor has the same name as its class",
+    "topic": "Constructors",
+    "difficulty": "Moderate",
+    "explanation": "A constructor has the same name as its class and has no return type."
+  },
+  {
+    "id": 28,
+    "question": "What is method overloading?",
+    "options": ["Using the same method name with different parameter lists", "Replacing a superclass method in a subclass", "Calling a method recursively", "Declaring every method static"],
+    "correctAnswer": "Using the same method name with different parameter lists",
+    "topic": "Polymorphism",
+    "difficulty": "Moderate",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists."
+  },
+  {
+    "id": 29,
+    "question": "Which class is immutable in Java?",
+    "options": ["String", "StringBuilder", "ArrayList", "StringBuffer"],
+    "correctAnswer": "String",
+    "topic": "Strings",
+    "difficulty": "Moderate",
+    "explanation": "A String object's contents cannot be changed after it is created."
+  },
+  {
+    "id": 30,
+    "question": "Which class is designed for mutable strings and is not synchronized?",
+    "options": ["String", "StringBuilder", "StringBuffer", "Character"],
+    "correctAnswer": "StringBuilder",
+    "topic": "Strings",
+    "difficulty": "Moderate",
+    "explanation": "StringBuilder allows string modification and is not synchronized."
+  },
+  {
+    "id": 31,
+    "question": "Which collection stores unique elements without guaranteeing insertion order?",
+    "options": ["ArrayList", "LinkedList", "HashSet", "Vector"],
+    "correctAnswer": "HashSet",
+    "topic": "Collections",
+    "difficulty": "Moderate",
+    "explanation": "HashSet stores unique elements and does not guarantee their iteration order."
+  },
+  {
+    "id": 32,
+    "question": "Which collection stores key-value pairs?",
+    "options": ["ArrayList", "HashMap", "HashSet", "Stack"],
+    "correctAnswer": "HashMap",
+    "topic": "Collections",
+    "difficulty": "Moderate",
+    "explanation": "HashMap stores mappings between keys and values."
+  },
+  {
+    "id": 33,
+    "question": "Which exception can occur when an object reference is null and a method is called on it?",
+    "options": ["IOException", "NullPointerException", "SQLException", "ClassNotFoundException"],
+    "correctAnswer": "NullPointerException",
+    "topic": "Exception Handling",
+    "difficulty": "Moderate",
+    "explanation": "Calling an instance method through a null reference typically causes NullPointerException."
+  },
+  {
+    "id": 34,
+    "question": "Which block is commonly used for cleanup code after try and catch?",
+    "options": ["final", "finally", "finish", "cleanup"],
+    "correctAnswer": "finally",
+    "topic": "Exception Handling",
+    "difficulty": "Moderate",
+    "explanation": "A finally block normally executes after try/catch processing and is often used for cleanup."
+  },
+  {
+    "id": 35,
+    "question": "Which keyword declares a class-level member that does not require an instance?",
+    "options": ["final", "static", "abstract", "volatile"],
+    "correctAnswer": "static",
+    "topic": "Keywords",
+    "difficulty": "Moderate",
+    "explanation": "Static members belong to the class rather than to individual instances."
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of an abstract class?",
+    "options": ["To prevent all inheritance", "To provide a base class that may contain abstract and implemented methods", "To create objects without constructors", "To store only constants"],
+    "correctAnswer": "To provide a base class that may contain abstract and implemented methods",
+    "topic": "Abstraction",
+    "difficulty": "Moderate",
+    "explanation": "An abstract class can define shared behavior and leave some implementation to subclasses."
+  },
+  {
+    "id": 37,
+    "question": "Which statement about Java interfaces is correct?",
+    "options": ["A class can implement multiple interfaces", "A class can extend multiple classes", "An interface can always be instantiated directly", "Interfaces cannot declare methods"],
+    "correctAnswer": "A class can implement multiple interfaces",
+    "topic": "Interfaces",
+    "difficulty": "Moderate",
+    "explanation": "A Java class can implement multiple interfaces."
+  },
+  {
+    "id": 38,
+    "question": "What is recursion?",
+    "options": ["A method calling itself directly or indirectly", "A loop that never ends", "Sorting data alphabetically", "Creating multiple classes"],
+    "correctAnswer": "A method calling itself directly or indirectly",
+    "topic": "Methods",
+    "difficulty": "Moderate",
+    "explanation": "A recursive method calls itself directly or through another method and needs a stopping condition."
+  },
+  {
+    "id": 39,
+    "question": "What is the time complexity of linear search in the worst case for n elements?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+    "correctAnswer": "O(n)",
+    "topic": "Algorithms",
+    "difficulty": "Moderate",
+    "explanation": "Linear search may inspect every element before finding a match or determining that none exists."
+  },
+  {
+    "id": 40,
+    "question": "Which data structure follows last-in, first-out order?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "correctAnswer": "Stack",
+    "topic": "Data Structures",
+    "difficulty": "Moderate",
+    "explanation": "A stack removes the most recently added element first."
+  },
+  {
+    "id": 41,
+    "question": "Which data structure follows first-in, first-out order?",
+    "options": ["Stack", "Queue", "Heap", "Tree"],
+    "correctAnswer": "Queue",
+    "topic": "Data Structures",
+    "difficulty": "Moderate",
+    "explanation": "A queue removes elements in the order they were added."
+  },
+  {
+    "id": 42,
+    "question": "What is the result of 10 % 3 in Java?",
+    "options": ["1", "3", "0", "3.33"],
+    "correctAnswer": "1",
+    "topic": "Operators",
+    "difficulty": "Moderate",
+    "explanation": "The remainder operator returns the remainder after integer division; 10 divided by 3 leaves 1."
+  },
+  {
+    "id": 43,
+    "question": "Which statement about local variables is correct?",
+    "options": ["They always receive default values", "They must be initialized before use", "They are always static", "They are shared by all objects"],
+    "correctAnswer": "They must be initialized before use",
+    "topic": "Variables",
+    "difficulty": "Moderate",
+    "explanation": "Java requires local variables to be definitely assigned before they are read."
+  },
+  {
+    "id": 44,
+    "question": "Which Java feature enables a variable to refer to objects of different related classes?",
+    "options": ["Polymorphism", "Compilation", "Serialization", "Packaging"],
+    "correctAnswer": "Polymorphism",
+    "topic": "OOP",
+    "difficulty": "Moderate",
+    "explanation": "Polymorphism allows a superclass or interface reference to refer to different implementing objects."
+  },
+  {
+    "id": 45,
+    "question": "What does the continue statement do inside a loop?",
+    "options": ["Exits the entire program", "Skips the rest of the current iteration", "Ends the loop permanently", "Restarts the application"],
+    "correctAnswer": "Skips the rest of the current iteration",
+    "topic": "Control Statements",
+    "difficulty": "Moderate",
+    "explanation": "continue moves control to the next loop iteration."
+  },
+  {
+    "id": 46,
+    "question": "Which method should be implemented to define a natural ordering for objects?",
+    "options": ["equals()", "compareTo()", "hashCode()", "toString()"],
+    "correctAnswer": "compareTo()",
+    "topic": "Collections",
+    "difficulty": "Moderate",
+    "explanation": "The Comparable interface defines natural ordering through compareTo()."
+  },
+  {
+    "id": 47,
+    "question": "Which keyword is used to explicitly invoke a superclass constructor?",
+    "options": ["this", "parent", "super", "base"],
+    "correctAnswer": "super",
+    "topic": "Inheritance",
+    "difficulty": "Moderate",
+    "explanation": "super() invokes a superclass constructor."
+  },
+  {
+    "id": 48,
+    "question": "What is the purpose of the static main method in a standard Java application?",
+    "options": ["It requires an object to be called", "It provides an entry point callable without creating an instance of the class", "It runs only during garbage collection", "It declares a constructor"],
+    "correctAnswer": "It provides an entry point callable without creating an instance of the class",
+    "topic": "Java Basics",
+    "difficulty": "Moderate",
+    "explanation": "The static main method can be invoked without first creating an instance of its class."
+  },
+  {
+    "id": 49,
+    "question": "Which tool compiles Java source code into bytecode?",
+    "options": ["java launcher", "javac compiler", "Javadoc only", "JAR tool"],
+    "correctAnswer": "javac compiler",
+    "topic": "JVM and Compilation",
+    "difficulty": "Moderate",
+    "explanation": "The javac compiler translates Java source code into class files containing bytecode."
+  },
+  {
+    "id": 50,
+    "question": "What is the main role of the Java Virtual Machine (JVM)?",
+    "options": ["To design HTML pages", "To execute Java bytecode", "To replace the Java compiler", "To store SQL tables"],
+    "correctAnswer": "To execute Java bytecode",
+    "topic": "JVM and Compilation",
+    "difficulty": "Moderate",
+    "explanation": "The JVM loads and executes Java bytecode and provides runtime services."
+  },
+  {
+    "id": 51,
+    "question": "What is the average time complexity of looking up a key in a well-distributed HashMap?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+    "correctAnswer": "O(1)",
+    "topic": "Collections",
+    "difficulty": "Hard",
+    "explanation": "HashMap lookup is average constant time when hashes are well distributed, although worst-case behavior can differ."
+  },
+  {
+    "id": 52,
+    "question": "What is the worst-case time complexity of binary search on a sorted array?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctAnswer": "O(log n)",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "explanation": "Binary search halves the remaining search range on each iteration."
+  },
+  {
+    "id": 53,
+    "question": "Which contract must be respected when overriding equals() and hashCode()?",
+    "options": ["Equal objects must have equal hash codes", "All objects must have different hash codes", "hashCode() must return a positive value", "equals() must always compare object references"],
+    "correctAnswer": "Equal objects must have equal hash codes",
+    "topic": "Object Class",
+    "difficulty": "Hard",
+    "explanation": "Objects considered equal by equals() must return the same hash code."
+  },
+  {
+    "id": 54,
+    "question": "Which exception is unchecked?",
+    "options": ["IOException", "SQLException", "ClassNotFoundException", "NullPointerException"],
+    "correctAnswer": "NullPointerException",
+    "topic": "Exception Handling",
+    "difficulty": "Hard",
+    "explanation": "NullPointerException is a RuntimeException and does not need to be caught or declared by the compiler."
+  },
+  {
+    "id": 55,
+    "question": "What does the synchronized keyword help achieve?",
+    "options": ["Automatic database backup", "Mutual exclusion when accessing synchronized code or a monitor", "Faster compilation in every case", "Automatic thread termination"],
+    "correctAnswer": "Mutual exclusion when accessing synchronized code or a monitor",
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "explanation": "Synchronization uses an object's or class's monitor to coordinate access to synchronized code."
+  },
+  {
+    "id": 56,
+    "question": "Which method starts a new thread when invoked on a Thread object?",
+    "options": ["run()", "start()", "execute()", "beginThread()"],
+    "correctAnswer": "start()",
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "explanation": "start() starts a new thread of execution, which then invokes run()."
+  },
+  {
+    "id": 57,
+    "question": "Which data structure is most suitable for checking whether parentheses are balanced?",
+    "options": ["Queue", "Stack", "Graph", "HashMap"],
+    "correctAnswer": "Stack",
+    "topic": "Data Structures",
+    "difficulty": "Hard",
+    "explanation": "A stack matches the most recently opened parenthesis first."
+  },
+  {
+    "id": 58,
+    "question": "What is the worst-case time complexity of quicksort?",
+    "options": ["O(log n)", "O(n)", "O(n log n)", "O(n²)"],
+    "correctAnswer": "O(n²)",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "explanation": "Quicksort can degrade to quadratic time when partitions are repeatedly highly unbalanced."
+  },
+  {
+    "id": 59,
+    "question": "Which technique stores solutions to overlapping subproblems to avoid recalculating them?",
+    "options": ["Linear search", "Dynamic programming", "Bubble sort", "Selection sort"],
+    "correctAnswer": "Dynamic programming",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "explanation": "Dynamic programming stores subproblem results and reuses them in larger calculations."
+  },
+  {
+    "id": 60,
+    "question": "Which statement about Java records is correct?",
+    "options": ["They are designed mainly for data carrier classes", "They must extend Thread", "They can extend any class", "They cannot define methods"],
+    "correctAnswer": "They are designed mainly for data carrier classes",
+    "topic": "Modern Java",
+    "difficulty": "Hard",
+    "explanation": "Records provide a concise way to model data carriers with generated component accessors and other methods."
+  },
+  {
+    "id": 61,
+    "question": "What is a functional interface in Java?",
+    "options": ["An interface with exactly one abstract method", "An interface with no methods", "A class containing only static methods", "An interface that cannot be implemented"],
+    "correctAnswer": "An interface with exactly one abstract method",
+    "topic": "Functional Programming",
+    "difficulty": "Hard",
+    "explanation": "A functional interface has one abstract method and can be implemented using a lambda expression."
+  },
+  {
+    "id": 62,
+    "question": "Which Java Stream operation transforms each element into another value?",
+    "options": ["filter()", "map()", "count()", "forEach()"],
+    "correctAnswer": "map()",
+    "topic": "Java Streams",
+    "difficulty": "Hard",
+    "explanation": "map() applies a function to each stream element and produces the transformed stream."
+  },
+  {
+    "id": 63,
+    "question": "Which Java Stream operation selects elements that satisfy a condition?",
+    "options": ["map()", "filter()", "reduce()", "collect()"],
+    "correctAnswer": "filter()",
+    "topic": "Java Streams",
+    "difficulty": "Hard",
+    "explanation": "filter() retains elements that match the supplied predicate."
+  },
+  {
+    "id": 64,
+    "question": "Which JDBC class is generally preferred for parameterized SQL queries?",
+    "options": ["Statement", "PreparedStatement", "ResultSet", "DriverManager"],
+    "correctAnswer": "PreparedStatement",
+    "topic": "JDBC",
+    "difficulty": "Hard",
+    "explanation": "PreparedStatement supports bound parameters and helps prevent SQL injection when values are bound correctly."
+  },
+  {
+    "id": 65,
+    "question": "Which statement about Java garbage collection is correct?",
+    "options": ["System.gc() guarantees immediate collection", "Programmers must manually free every object", "The JVM manages memory reclamation for eligible objects", "Every object is collected when its method ends"],
+    "correctAnswer": "The JVM manages memory reclamation for eligible objects",
+    "topic": "Memory Management",
+    "difficulty": "Hard",
+    "explanation": "The JVM manages garbage collection, but the exact time an eligible object is collected is not guaranteed."
+  },
+  {
+    "id": 66,
+    "question": "What is the result of integer division 7 / 2 in Java?",
+    "options": ["3", "3.5", "4", "2"],
+    "correctAnswer": "3",
+    "topic": "Operators",
+    "difficulty": "Hard",
+    "explanation": "When both operands are integers, integer division discards the fractional part."
+  },
+  {
+    "id": 67,
+    "question": "Which feature allows a Java method to accept a variable number of arguments?",
+    "options": ["Generics", "Varargs", "Serialization", "Reflection"],
+    "correctAnswer": "Varargs",
+    "topic": "Methods",
+    "difficulty": "Hard",
+    "explanation": "Varargs use the ... syntax to accept zero or more arguments of a specified type."
+  },
+  {
+    "id": 68,
+    "question": "Which keyword prevents a Java class from being extended?",
+    "options": ["static", "private", "final", "abstract"],
+    "correctAnswer": "final",
+    "topic": "Inheritance",
+    "difficulty": "Hard",
+    "explanation": "A final class cannot be subclassed."
+  },
+  {
+    "id": 69,
+    "question": "What is the primary benefit of using generics such as List<String>?",
+    "options": ["Automatic sorting", "Compile-time type safety", "Guaranteed constant-time operations", "Automatic thread safety"],
+    "correctAnswer": "Compile-time type safety",
+    "topic": "Generics",
+    "difficulty": "Hard",
+    "explanation": "Generics help enforce type constraints at compile time and reduce unsafe casts."
+  },
+  {
+    "id": 70,
+    "question": "Which algorithm is commonly used to find the shortest paths from a single source when all edge weights are non-negative?",
+    "options": ["Binary search", "Dijkstra's algorithm", "Bubble sort", "Depth-first search alone"],
+    "correctAnswer": "Dijkstra's algorithm",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "explanation": "Dijkstra's algorithm finds shortest paths from a source in a graph with non-negative edge weights."
+  },
+  {
+    "id": 71,
+    "question": "Which Java collection is designed to maintain elements in sorted order and typically provides logarithmic basic operations?",
+    "options": ["HashSet", "TreeSet", "ArrayList", "LinkedList"],
+    "correctAnswer": "TreeSet",
+    "topic": "Collections",
+    "difficulty": "Hard",
+    "explanation": "TreeSet uses a tree-based structure to maintain sorted unique elements, typically with logarithmic basic operations."
+  },
+  {
+    "id": 72,
+    "question": "Which statement about checked exceptions is correct?",
+    "options": ["The compiler ignores them", "They must be caught or declared, unless handled by an enclosing method", "They are always subclasses of Error", "They can never occur at runtime"],
+    "correctAnswer": "They must be caught or declared, unless handled by an enclosing method",
+    "topic": "Exception Handling",
+    "difficulty": "Hard",
+    "explanation": "Checked exceptions are subject to compile-time catch-or-declare rules."
+  },
+  {
+    "id": 73,
+    "question": "Which concurrency utility is useful for executing submitted tasks using a pool of worker threads?",
+    "options": ["ExecutorService", "StringBuilder", "Scanner", "FileReader"],
+    "correctAnswer": "ExecutorService",
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "explanation": "ExecutorService manages task execution and can use a pool of reusable worker threads."
+  },
+  {
+    "id": 74,
+    "question": "What is the main purpose of the volatile keyword for a shared variable?",
+    "options": ["It makes every compound operation atomic", "It provides visibility guarantees for reads and writes of that variable", "It permanently locks the object", "It prevents the variable from changing"],
+    "correctAnswer": "It provides visibility guarantees for reads and writes of that variable",
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "explanation": "Volatile establishes visibility and ordering guarantees, but does not make compound operations such as count++ atomic."
+  },
+  {
+    "id": 75,
+    "question": "Which principle hides internal object details and provides controlled access through a public interface?",
+    "options": ["Inheritance", "Encapsulation", "Recursion", "Iteration"],
+    "correctAnswer": "Encapsulation",
+    "topic": "OOP",
+    "difficulty": "Hard",
+    "explanation": "Encapsulation bundles data and behavior while controlling access to internal state."
+  }
+]

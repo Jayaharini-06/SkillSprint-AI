@@ -1,0 +1,155 @@
+# SkillSprint AI – AI Question Generation Prompt
+
+## 1. Project Purpose
+
+SkillSprint AI is an AI-assisted placement preparation web application. It helps students prepare for job placements by conducting assessments based on their selected job role, identifying weak topics, and providing personalized learning recommendations.
+
+Generate assessment questions according to the student's selected job role, assessment level, and topic.
+
+## 2. Supported Job Roles
+
+Generate questions for these job roles:
+
+- Java Developer
+- Full Stack Developer
+- Data Analyst
+
+Questions must be relevant to the selected job role.
+
+### Java Developer
+Focus on Java programming, OOP concepts, strings, arrays, collections, exception handling, and basic problem-solving.
+
+### Full Stack Developer
+Focus on HTML, CSS, JavaScript, frontend development, backend development, databases, APIs, and full-stack fundamentals.
+
+### Data Analyst
+Focus on SQL, data analysis, spreadsheets, statistics, data visualization, and Python fundamentals used in data analysis.
+
+## 3. Difficulty Levels
+
+Generate questions according to one of these three levels:
+
+- **Basic:** Beginner-level questions that test fundamental concepts.
+- **Moderate:** Intermediate questions that test understanding and application.
+- **Hard:** Advanced questions that test deeper knowledge, problem-solving, and practical application.
+
+Use only these exact difficulty labels in the generated JSON: `"Basic"`, `"Moderate"`, and `"Hard"`.
+
+Do not use `"Easy"`, `"Medium"`, or `"Difficult"` as difficulty labels.
+
+## 4. Question Generation Rules
+
+1. Generate exactly the number of questions requested by the application.
+2. Every question must match the selected job role, topic, and difficulty level.
+3. Questions must be clear, meaningful, and grammatically correct.
+4. Avoid duplicate questions within the same assessment.
+5. Do not generate ambiguous questions with multiple possible correct answers.
+6. For multiple-choice questions, provide exactly four options.
+7. Only one option must be correct.
+8. The correct answer must match one of the four options exactly.
+9. Include a short explanation that helps the student understand why the answer is correct.
+10. Do not include irrelevant questions from other job roles.
+11. Do not make Basic questions unnecessarily difficult.
+12. Do not make Hard questions too simple.
+13. Do not reveal the correct answer in the question text or options.
+14. Generate original questions where possible instead of repeatedly using the same examples.
+15. Ensure that questions test actual knowledge rather than relying on confusing wording.
+
+## 5. Required JSON Output Format
+
+Return the generated questions as a valid JSON array.
+
+Each question must follow this structure:
+
+```json
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "instanceof"
+    ],
+    "correctAnswer": "extends",
+    "topic": "Inheritance",
+    "difficulty": "Basic",
+    "explanation": "The extends keyword is used when one class inherits from another class in Java."
+  }
+]
+```
+
+## 6. JSON Requirements
+
+Every generated question must contain these fields:
+
+- `id`: A unique integer identifier.
+- `question`: The question text.
+- `options`: An array containing exactly four answer choices.
+- `correctAnswer`: The exact text of the correct option.
+- `topic`: The specific concept tested by the question.
+- `difficulty`: One of `"Basic"`, `"Moderate"`, or `"Hard"`.
+- `explanation`: A short and simple explanation of the correct answer.
+
+Additional rules:
+
+1. Use valid JSON syntax.
+2. Use double quotes for JSON keys and string values.
+3. Do not include comments inside the JSON.
+4. Do not add trailing commas.
+5. Do not include Markdown formatting around the JSON when the application expects raw JSON.
+6. Do not include introductions, conclusions, or extra text outside the JSON array.
+7. Ensure every `id` is unique within the generated assessment.
+8. Ensure `correctAnswer` exactly matches one of the values in `options`.
+
+## 7. Assessment Generation Instructions
+
+The application will provide these inputs:
+
+- **Job Role:** The student's selected job role.
+- **Difficulty:** Basic, Moderate, or Hard.
+- **Topic:** The selected topic or a set of topics relevant to the job role.
+- **Number of Questions:** The exact number of questions required.
+- **Starting ID:** The starting integer for question IDs, if provided.
+
+Generate the requested number of questions using these inputs.
+
+If a starting ID is provided, assign sequential IDs beginning with that number. Otherwise, begin with ID 1.
+
+## 8. Question Quality by Level
+
+### Basic
+- Test fundamental definitions and concepts.
+- Use simple, direct questions.
+- Include beginner-level programming and technical knowledge.
+- Avoid advanced scenarios.
+
+### Moderate
+- Test the application of concepts.
+- Include practical examples and short problem-solving questions.
+- Require students to understand how concepts work.
+- Use moderate complexity.
+
+### Hard
+- Test advanced understanding and analytical thinking.
+- Include complex scenarios and challenging problem-solving questions.
+- Test the ability to apply multiple related concepts.
+- Avoid questions that are difficult only because of confusing wording.
+
+## 9. Final Output Validation
+
+Before returning the JSON, verify that:
+
+- The number of questions matches the requested count exactly.
+- Every question belongs to the selected job role.
+- Every question matches the requested difficulty.
+- Every question has exactly four options.
+- Each question has exactly one correct answer.
+- Every `correctAnswer` matches one option exactly.
+- All required fields are present.
+- All question IDs are unique.
+- All explanations are relevant and understandable.
+- The response is valid JSON with no extra text.
+
+Return only the final validated JSON array.

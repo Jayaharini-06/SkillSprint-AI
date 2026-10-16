@@ -1,0 +1,47 @@
+SKILLSPRINT AI - ASSESSMENT RULES
+
+1. JOB ROLES
+- Java Developer
+- Full Stack Developer
+- Data Analyst
+
+2. ASSESSMENT LEVELS
+- Basic: 25 questions
+- Moderate: 25 questions
+- Hard: 25 questions
+
+3. PASSING RULE
+- Students must score at least 90% to pass Basic and Moderate.
+- Since each level has 25 questions, at least 23 correct answers are required.
+
+4. WHEN A STUDENT PASSES
+- Basic: Show the report and recommend Moderate.
+- Moderate: Show the report and recommend Hard.
+- Hard: Show the final skill report.
+
+5. WHEN A STUDENT FAILS BASIC OR MODERATE
+- Identify weak topics.
+- Explain weak topics using AI in simple English.
+- Provide examples and practice questions.
+- Create a personalized study plan.
+- Allow the student to retry the same level.
+- Do not allow progression until the student passes.
+
+6. REPORT AFTER EACH LEVEL
+- Selected job role
+- Current level and highest level passed
+- Score and correct/incorrect answers
+- Strengths and weak topics
+- Personalized AI study planner
+- Recommended next step
+
+7. ASSESSMENT MODES
+- Predefined assessment: Use questions stored in the question bank.
+- AI-generated assessment: Generate questions based on role, topic and difficulty.
+- Both modes must follow the same scoring and progression rules.
+
+8. FINAL REPORT
+After the Hard assessment is completed, display all three level scores, overall performance, strengths, weaknesses and learning recommendations.
+
+9. SCORE CALCULATION
+The backend must calculate scores using the verified answer key. AI must not determine the final score.

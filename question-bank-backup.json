@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "Which method is the entry point of a standard Java application?",
+    "options": [
+      "start()",
+      "main()",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "main()",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "The JVM starts a standard Java application by calling the main method with the required signature."
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to declare a class in Java?",
+    "options": [
+      "define",
+      "class",
+      "object",
+      "struct"
+    ],
+    "correctAnswer": "class",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "The class keyword declares a class in Java."
+  },
+  {
+    "id": 3,
+    "question": "Which of these is a primitive data type in Java?",
+    "options": [
+      "String",
+      "ArrayList",
+      "int",
+      "Scanner"
+    ],
+    "correctAnswer": "int",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "int is a primitive type used to store integer values."
+  },
+  {
+    "id": 4,
+    "question": "Which symbol ends most Java statements?",
+    "options": [
+      ";",
+      ":",
+      ".",
+      ","
+    ],
+    "correctAnswer": ";",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "Most Java statements end with a semicolon."
+  },
+  {
+    "id": 5,
+    "question": "Which keyword creates an object from a class?",
+    "options": [
+      "make",
+      "create",
+      "new",
+      "this"
+    ],
+    "correctAnswer": "new",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "The new keyword allocates an object and invokes a constructor."
+  },
+  {
+    "id": 6,
+    "question": "Which Java type stores true or false?",
+    "options": [
+      "boolean",
+      "char",
+      "byte",
+      "float"
+    ],
+    "correctAnswer": "boolean",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "The boolean primitive type stores either true or false."
+  },
+  {
+    "id": 7,
+    "question": "Which statement prints text and moves to a new line?",
+    "options": [
+      "System.out.print()",
+      "System.in.println()",
+      "System.out.println()",
+      "Console.read()"
+    ],
+    "correctAnswer": "System.out.println()",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "System.out.println prints the supplied value followed by a line break."
+  },
+  {
+    "id": 8,
+    "question": "Which access modifier allows access from anywhere, subject to class accessibility?",
+    "options": [
+      "private",
+      "protected",
+      "public",
+      "default"
+    ],
+    "correctAnswer": "public",
+    "topic": "Java Basics",
+    "difficulty": "Easy",
+    "explanation": "A public member can be accessed from any class that can access its containing type."
+  },
+  {
+    "id": 9,
+    "question": "What is the result of 7 / 2 when both operands are int values in Java?",
+    "options": [
+      "3",
+      "3.5",
+      "4",
+      "2"
+    ],
+    "correctAnswer": "3",
+    "topic": "Java Basics",
+    "difficulty": "Medium",
+    "explanation": "Integer division discards the fractional part, so 7 / 2 evaluates to 3."
+  },
+  {
+    "id": 10,
+    "question": "Which loop checks its condition before executing the loop body?",
+    "options": [
+      "do-while only",
+      "while",
+      "Both while and for",
+      "Neither while nor for"
+    ],
+    "correctAnswer": "Both while and for",
+    "topic": "Java Basics",
+    "difficulty": "Medium",
+    "explanation": "Both while and for loops test their condition before each iteration; do-while tests after the body."
+  },
+  {
+    "id": 11,
+    "question": "Which keyword is used when one class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "topic": "OOP Concepts",
+    "difficulty": "Easy",
+    "explanation": "A class uses extends to inherit from another class."
+  },
+  {
+    "id": 12,
+    "question": "Which concept combines data and methods in one unit and controls access to the data?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Compilation",
+      "Iteration"
+    ],
+    "correctAnswer": "Encapsulation",
+    "topic": "OOP Concepts",
+    "difficulty": "Easy",
+    "explanation": "Encapsulation bundles data with related methods and can restrict direct access to internal state."
+  },
+  {
+    "id": 13,
+    "question": "Which concept allows one interface or method name to represent different behaviors?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Recursion",
+      "Casting"
+    ],
+    "correctAnswer": "Polymorphism",
+    "topic": "OOP Concepts",
+    "difficulty": "Easy",
+    "explanation": "Polymorphism lets the same interface or method call produce different behavior depending on the object or arguments."
+  },
+  {
+    "id": 14,
+    "question": "Which keyword is used to refer to the current object?",
+    "options": [
+      "super",
+      "this",
+      "self",
+      "current"
+    ],
+    "correctAnswer": "this",
+    "topic": "OOP Concepts",
+    "difficulty": "Easy",
+    "explanation": "The this keyword refers to the current object instance."
+  },
+  {
+    "id": 15,
+    "question": "Which keyword refers to members of a superclass?",
+    "options": [
+      "this",
+      "parent",
+      "base",
+      "super"
+    ],
+    "correctAnswer": "super",
+    "topic": "OOP Concepts",
+    "difficulty": "Easy",
+    "explanation": "The super keyword can access superclass members and constructors."
+  },
+  {
+    "id": 16,
+    "question": "Can a Java class be declared abstract and instantiated directly?",
+    "options": [
+      "Yes, always",
+      "Yes, using new",
+      "No",
+      "Only if it has no methods"
+    ],
+    "correctAnswer": "No",
+    "topic": "OOP Concepts",
+    "difficulty": "Easy",
+    "explanation": "An abstract class cannot be instantiated directly, though concrete subclasses can be instantiated."
+  },
+  {
+    "id": 17,
+    "question": "What is method overloading?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Same method name and same parameters in unrelated classes only",
+      "Changing a variable value",
+      "Hiding a class"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "topic": "OOP Concepts",
+    "difficulty": "Medium",
+    "explanation": "Overloaded methods share a name but have different parameter lists."
+  },
+  {
+    "id": 18,
+    "question": "What is method overriding?",
+    "options": [
+      "Defining a subclass implementation of an inherited instance method with a compatible signature",
+      "Creating two variables with the same name in one scope",
+      "Calling a method twice",
+      "Changing a method's return value at runtime"
+    ],
+    "correctAnswer": "Defining a subclass implementation of an inherited instance method with a compatible signature",
+    "topic": "OOP Concepts",
+    "difficulty": "Medium",
+    "explanation": "Overriding allows a subclass to provide its implementation of an inherited instance method."
+  },
+  {
+    "id": 19,
+    "question": "Which statement about a Java interface is correct?",
+    "options": [
+      "It can only contain constructors",
+      "A class can implement an interface",
+      "It must be instantiated directly",
+      "It cannot contain any methods"
+    ],
+    "correctAnswer": "A class can implement an interface",
+    "topic": "OOP Concepts",
+    "difficulty": "Medium",
+    "explanation": "A class uses implements to provide implementations for an interface's abstract methods, as required."
+  },
+  {
+    "id": 20,
+    "question": "Which OOP concept exposes essential features while hiding implementation details?",
+    "options": [
+      "Abstraction",
+      "Iteration",
+      "Overloading",
+      "Serialization"
+    ],
+    "correctAnswer": "Abstraction",
+    "topic": "OOP Concepts",
+    "difficulty": "Medium",
+    "explanation": "Abstraction presents relevant behavior while hiding unnecessary implementation details."
+  },
+  {
+    "id": 21,
+    "question": "Which statement about Java String objects is correct?",
+    "options": [
+      "Strings are mutable",
+      "Strings are immutable",
+      "Strings can store only one character",
+      "Strings are primitive types"
+    ],
+    "correctAnswer": "Strings are immutable",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "explanation": "A String object's value cannot be changed after it is created; operations that appear to modify it return another String."
+  },
+  {
+    "id": 22,
+    "question": "Which method returns the number of characters in a String?",
+    "options": [
+      "size()",
+      "count()",
+      "length()",
+      "capacity()"
+    ],
+    "correctAnswer": "length()",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "explanation": "The String length() method returns the number of UTF-16 code units in the string."
+  },
+  {
+    "id": 23,
+    "question": "Which method compares the contents of two strings?",
+    "options": [
+      "==",
+      "equals()",
+      "compareRef()",
+      "same()"
+    ],
+    "correctAnswer": "equals()",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "explanation": "String equals() compares character content, while == checks whether references point to the same object."
+  },
+  {
+    "id": 24,
+    "question": "Which class is commonly used to build a mutable string in a single-threaded context?",
+    "options": [
+      "StringBuilder",
+      "String",
+      "Character",
+      "StringReader"
+    ],
+    "correctAnswer": "StringBuilder",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "explanation": "StringBuilder allows a string-like sequence to be modified without creating a new String for every change."
+  },
+  {
+    "id": 25,
+    "question": "What does the charAt(0) method return for the string \"Java\"?",
+    "options": [
+      "J",
+      "a",
+      "v",
+      "Java"
+    ],
+    "correctAnswer": "J",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "explanation": "String indexing starts at zero, so charAt(0) returns the first character, J."
+  },
+  {
+    "id": 26,
+    "question": "Which method checks whether a string contains a given sequence of characters?",
+    "options": [
+      "has()",
+      "contains()",
+      "includesText()",
+      "findAll()"
+    ],
+    "correctAnswer": "contains()",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "explanation": "The contains() method returns true when the specified character sequence occurs in the string."
+  },
+  {
+    "id": 27,
+    "question": "What is the result of \"Java\".substring(1, 3)?",
+    "options": [
+      "Ja",
+      "av",
+      "ava",
+      "v"
+    ],
+    "correctAnswer": "av",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "explanation": "substring(begin, end) includes the begin index and excludes the end index, selecting characters at indices 1 and 2."
+  },
+  {
+    "id": 28,
+    "question": "Which method removes leading and trailing whitespace from a String?",
+    "options": [
+      "stripEdges()",
+      "trim()",
+      "removeSpace()",
+      "clean()"
+    ],
+    "correctAnswer": "trim()",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "explanation": "trim() removes leading and trailing characters with code points at or below U+0020; strip() is available for broader Unicode whitespace handling."
+  },
+  {
+    "id": 29,
+    "question": "How do you access the first element of an array named nums?",
+    "options": [
+      "nums[1]",
+      "nums[0]",
+      "nums.first()",
+      "nums(0)"
+    ],
+    "correctAnswer": "nums[0]",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "explanation": "Java array indices start at zero, so the first element is at index 0."
+  },
+  {
+    "id": 30,
+    "question": "Which property gives the number of elements in an array named nums?",
+    "options": [
+      "nums.length()",
+      "nums.size",
+      "nums.length",
+      "length(nums)"
+    ],
+    "correctAnswer": "nums.length",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "explanation": "Arrays use the length field, without parentheses, to report their size."
+  },
+  {
+    "id": 31,
+    "question": "What is the index of the last element in an array of length n, when n is greater than zero?",
+    "options": [
+      "n",
+      "n - 1",
+      "n + 1",
+      "1"
+    ],
+    "correctAnswer": "n - 1",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "explanation": "With zero-based indexing, the final valid index is one less than the array length."
+  },
+  {
+    "id": 32,
+    "question": "What happens if you access an array index outside its valid range?",
+    "options": [
+      "Java returns 0 automatically",
+      "The array expands automatically",
+      "An ArrayIndexOutOfBoundsException is thrown",
+      "The program always continues normally"
+    ],
+    "correctAnswer": "An ArrayIndexOutOfBoundsException is thrown",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "explanation": "Accessing an invalid array index at runtime causes an ArrayIndexOutOfBoundsException."
+  },
+  {
+    "id": 33,
+    "question": "Which is the correct way to declare an integer array with 5 slots?",
+    "options": [
+      "int arr = new int[5];",
+      "int[] arr = new int[5];",
+      "array int arr(5);",
+      "int[5] arr;"
+    ],
+    "correctAnswer": "int[] arr = new int[5];",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "explanation": "The declaration int[] arr = new int[5] creates an integer array with five elements."
+  },
+  {
+    "id": 34,
+    "question": "What is the default value of each element in a newly created int array?",
+    "options": [
+      "null",
+      "1",
+      "0",
+      "Undefined"
+    ],
+    "correctAnswer": "0",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "explanation": "Elements of a newly created int array are initialized to zero."
+  },
+  {
+    "id": 35,
+    "question": "Which utility class provides a sort method for arrays?",
+    "options": [
+      "ArrayTools",
+      "Collections only",
+      "Arrays",
+      "Sort"
+    ],
+    "correctAnswer": "Arrays",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "explanation": "java.util.Arrays provides overloaded static sort methods for arrays."
+  },
+  {
+    "id": 36,
+    "question": "What is a two-dimensional int array in Java commonly used to represent?",
+    "options": [
+      "A single integer only",
+      "A table or grid of integers",
+      "A method parameter only",
+      "A string"
+    ],
+    "correctAnswer": "A table or grid of integers",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "explanation": "A two-dimensional array is commonly used to represent rows and columns, although Java technically implements it as an array of arrays."
+  },
+  {
+    "id": 37,
+    "question": "Which block contains code that may throw an exception and needs handling?",
+    "options": [
+      "try",
+      "catch",
+      "finally",
+      "throws"
+    ],
+    "correctAnswer": "try",
+    "topic": "Exception Handling",
+    "difficulty": "Easy",
+    "explanation": "Potentially exception-throwing code is placed in a try block when it is to be handled by catch or finally."
+  },
+  {
+    "id": 38,
+    "question": "Which block is used to handle an exception thrown from a try block?",
+    "options": [
+      "throw",
+      "catch",
+      "final",
+      "handle"
+    ],
+    "correctAnswer": "catch",
+    "topic": "Exception Handling",
+    "difficulty": "Easy",
+    "explanation": "A catch block handles exceptions of the specified type thrown from its associated try block."
+  },
+  {
+    "id": 39,
+    "question": "Which keyword explicitly throws an exception object?",
+    "options": [
+      "throws",
+      "throw",
+      "catch",
+      "finally"
+    ],
+    "correctAnswer": "throw",
+    "topic": "Exception Handling",
+    "difficulty": "Easy",
+    "explanation": "The throw keyword explicitly throws a Throwable object."
+  },
+  {
+    "id": 40,
+    "question": "Which keyword declares exceptions that a method may pass to its caller?",
+    "options": [
+      "throw",
+      "throws",
+      "try",
+      "catch"
+    ],
+    "correctAnswer": "throws",
+    "topic": "Exception Handling",
+    "difficulty": "Easy",
+    "explanation": "A method declaration uses throws to list exception types that may be propagated to its caller."
+  },
+  {
+    "id": 41,
+    "question": "Which type of exception must generally be caught or declared, unless it is a RuntimeException subclass?",
+    "options": [
+      "Checked exception",
+      "Unchecked exception",
+      "Error only",
+      "No exception"
+    ],
+    "correctAnswer": "Checked exception",
+    "topic": "Exception Handling",
+    "difficulty": "Medium",
+    "explanation": "Checked exceptions are subject to Java's catch-or-declare compile-time rule."
+  },
+  {
+    "id": 42,
+    "question": "What is the usual purpose of a finally block?",
+    "options": [
+      "Declare a new class",
+      "Run cleanup code after try/catch processing in normal completion paths",
+      "Create an object",
+      "Replace every catch block"
+    ],
+    "correctAnswer": "Run cleanup code after try/catch processing in normal completion paths",
+    "topic": "Exception Handling",
+    "difficulty": "Medium",
+    "explanation": "A finally block is commonly used for cleanup and normally runs whether or not an exception occurs, except in unusual termination cases."
+  },
+  {
+    "id": 43,
+    "question": "Which exception is commonly thrown when an integer is divided by zero using integer arithmetic?",
+    "options": [
+      "IOException",
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassNotFoundException"
+    ],
+    "correctAnswer": "ArithmeticException",
+    "topic": "Exception Handling",
+    "difficulty": "Easy",
+    "explanation": "Integer division by zero throws ArithmeticException; floating-point division follows different rules."
+  },
+  {
+    "id": 44,
+    "question": "Which collection type allows duplicate elements and preserves their insertion order?",
+    "options": [
+      "HashSet",
+      "ArrayList",
+      "TreeSet",
+      "Map"
+    ],
+    "correctAnswer": "ArrayList",
+    "topic": "Collections",
+    "difficulty": "Easy",
+    "explanation": "ArrayList is a List implementation that allows duplicates and preserves element order."
+  },
+  {
+    "id": 45,
+    "question": "Which collection is designed to store unique elements?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "HashSet",
+      "Vector"
+    ],
+    "correctAnswer": "HashSet",
+    "topic": "Collections",
+    "difficulty": "Easy",
+    "explanation": "HashSet implements Set and does not allow duplicate elements."
+  },
+  {
+    "id": 46,
+    "question": "Which interface represents a collection of key-value pairs?",
+    "options": [
+      "List",
+      "Queue",
+      "Map",
+      "Set"
+    ],
+    "correctAnswer": "Map",
+    "topic": "Collections",
+    "difficulty": "Easy",
+    "explanation": "Map associates each key with a value and does not permit duplicate keys."
+  },
+  {
+    "id": 47,
+    "question": "Which method adds an element to an ArrayList named list?",
+    "options": [
+      "list.insertValue(x)",
+      "list.add(x)",
+      "list.pushBackOnly(x)",
+      "list.put(x)"
+    ],
+    "correctAnswer": "list.add(x)",
+    "topic": "Collections",
+    "difficulty": "Easy",
+    "explanation": "The add method appends an element to an ArrayList."
+  },
+  {
+    "id": 48,
+    "question": "Which collection generally maintains elements in sorted order according to their natural ordering or a comparator?",
+    "options": [
+      "HashSet",
+      "TreeSet",
+      "ArrayList",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "TreeSet",
+    "topic": "Collections",
+    "difficulty": "Medium",
+    "explanation": "TreeSet stores unique elements in sorted order using natural ordering or a supplied Comparator."
+  },
+  {
+    "id": 49,
+    "question": "Which interface is the common parent interface for List and Set?",
+    "options": [
+      "Map",
+      "Collection",
+      "Iterator",
+      "Arrays"
+    ],
+    "correctAnswer": "Collection",
+    "topic": "Collections",
+    "difficulty": "Medium",
+    "explanation": "List and Set are subinterfaces of Collection; Map is separate from the Collection hierarchy."
+  },
+  {
+    "id": 50,
+    "question": "Which method checks whether a collection contains a specified element?",
+    "options": [
+      "hasElement()",
+      "contains()",
+      "existsAt()",
+      "includesValue()"
+    ],
+    "correctAnswer": "contains()",
+    "topic": "Collections",
+    "difficulty": "Easy",
+    "explanation": "The contains(Object) method returns true if the collection contains an element equal to the supplied object."
+  }
+]
